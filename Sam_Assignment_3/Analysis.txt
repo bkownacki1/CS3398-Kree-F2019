@@ -1,0 +1,37 @@
+File: ThreeSolidMain.java 
+
+Open Close Principal: 
+  - This principal does not apply to this file because the main function is static and hence all of the methods are not inherited because the child class will have not access to the variables and methods defined within the class. 
+  
+Single Responsibility Principal:
+  - This class follows this principal because the main class is only repsonsible for calling the object methods and performing IO related operations. It does not perform any of the calculations that are to be outputted. These are handled in the Classes themselves. 
+  
+Interface Segregation:
+  - This Rule Does not apply as the main class does not have any interefaces that it implements or defines. 
+  
+________
+  
+Files: IFeedable.java, IWorkable.java
+  
+Open Close Principal:
+    - These files are interfaces and therefore cannot be extended by a class, it can only be extended by a fellow interface. IWorker.java extends this interface to allow its methods to be seen by the IWorker interface, but the interfaces themselves are seperate allowing easier modular maintence and modification and allows new features to be added without modifying any of the existing code by extending the interface and adding code on top of the methods that already exist.
+    
+Single Responsibility Principal:
+    - This interface is only responsible for defining one method and does not have any other methods within it. Hence its scope is limited to eating and hence adheres to the principal.
+   
+Interface Segregation Principal:
+    - Each of these interfaces has well defined and different jobs without overlapping code or responsibility. The IFeedable class only eats and the IWorkable class only works. Since there is no overlap or additional operations performed by the interface, it adheres to this principal. 
+    
+________
+
+File: IWorker:
+
+Open Close Principal:
+    - This Interface extends 2 additional interfaces and due to the rules of java inheritance, this interface cannot be extended for a 2nd time due to single inheritance. So this principal does not apply to this class. 
+    
+Single Responsibility Principal: 
+    - 
+    
+Interface Segregation:
+    - 
+   
