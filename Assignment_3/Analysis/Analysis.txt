@@ -76,7 +76,7 @@ of each interface to be implemented seperately between different classes.
 ---------------------------------------------------------------------------
 
 File: IControl.java
-Author(s):
+Author(s): Shelby Jordan
 
 Open/Close principle: - The IDirect and IManage interfaces are extended in the IControl interface. As such, the
 interface cannot be extended again due to restrictions in Java. That being noted, this interface is not applicable
