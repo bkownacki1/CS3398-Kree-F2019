@@ -1,4 +1,10 @@
-File: ThreeSolidMain.java 
+Group: CS3398 F19 Kree
+Below is the analysis for each file. Additionally, the author for each file analysis is noted as well.
+
+---------------------------------------------------------------------------
+
+File: ThreeSolidMain.java
+Author(s): David Kim
 
 Open/Close principle:
   - This principal does not apply to this file because the main function is static and hence all of the methods are not
@@ -11,7 +17,38 @@ handled in the Classes themselves.
   
 Interface segregation principle:
   - This Rule Does not apply as the main class does not have any interfaces that it implements or defines. 
-  
+---------------------------------------------------------------------------
+
+File: Manager.java
+Author(s):
+
+Open/Close principle:
+
+Single responsibility principle:
+
+Interface segregation principle:
+
+---------------------------------------------------------------------------
+
+File: Worker.java, SuperWorker.java
+Author(s):
+
+Open/Close principle:
+
+Single responsibility principle:
+
+Interface segregation principle:    
+
+---------------------------------------------------------------------------
+
+File: Robot.java
+Author(s):
+
+Open/Close principle:
+
+Single responsibility principle:
+
+Interface segregation principle:
 --------------------------------------------------------------------------
 
 Files: IEat.java, IWork.java, IDrect.java, IManage.java, IControl.java
@@ -34,7 +71,9 @@ For example, the IEat class only eats and the IWork class only works. Since ther
 operations performed by the interface, it adheres to this principal. 
     
 --------------------------------------------------------------------------
+
 File: IWorker.java
+Author(s): David Kim
 
 Open/Close principle:
     - This Interface extends 2 additional interfaces and due to the rules of java inheritance, this interface cannot 
@@ -47,25 +86,7 @@ Interface segregation principle:
     - Splitting this interface with IEat and IWork allows new classes to not implement any of the methods that they 
 will not use. This interface adheres to this principal.
 
----------------------------------------------------------------------------
-File: Manager.java
-Author(s):
 
-Open/Close principle:
-
-Single responsibility principle:
-
-Interface segregation principle:  
-
----------------------------------------------------------------------------
-File: Robot.java
-Author(s):
-
-Open/Close principle:
-
-Single responsibility principle:
-
-Interface segregation principle:
 
 
 
