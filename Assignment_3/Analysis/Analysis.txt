@@ -78,7 +78,8 @@ of each interface to be implemented seperately between different classes.
 File: IControl.java
 Author(s): Shelby Jordan, Sam Pugh
 
-Open/Close principle: - The IDirect and IManage interfaces are extended in the IControl interface. As such, the
+Open/Close principle: 
+- The IDirect and IManage interfaces are extended in the IControl interface. As such, the
 interface cannot be extended again due to restrictions in Java. That being noted, this interface is not applicable
 to the Open/Close principle. It can however add other interfaces to the list of extended interfaces
 
@@ -86,6 +87,9 @@ Single responsibility principle: -This interface extends methods from IDirect an
 control interface needs to operate. As it is, the interface adheres to this principle.
 
 Interface segregation principle:
+  - Extending the IDirect and IManage classes allows their function to be maintained while adding additional features for customers who may need the functionality of the IDirect and IManage class. This while leaving their base functions in tact and allows the previous features for the customers to remain untouched while adding the functionality that may be needed by another set of customers. This modularity ensures that no interface is giving access to methods that a customer does not need or use. Thus it adheres to the interface segregation principal.
+  
+  
 --------------------------------------------------------------------------
 
 File: IWorker.java
