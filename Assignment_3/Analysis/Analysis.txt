@@ -80,9 +80,10 @@ Author(s): Shelby Jordan, Sam Pugh
 
 Open/Close principle: - The IDirect and IManage interfaces are extended in the IControl interface. As such, the
 interface cannot be extended again due to restrictions in Java. That being noted, this interface is not applicable
-to the Open/Close principle.
+to the Open/Close principle. It can however add other interfaces to the list of extended interfaces
 
-Single responsibility principle:
+Single responsibility principle: -This interface extends methods from IDirect and IManage which are methods that the
+control interface needs to operate. As it is, the interface is
 
 Interface segregation principle:
 --------------------------------------------------------------------------
