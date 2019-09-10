@@ -1,7 +1,7 @@
 //Authors: Shelby Jordan, Sam Pugh
 package threesolid;
 
-public class Manager implements IDirect, IManage {
+public class Manager implements IControl {
 
 	public Manager() {
 	}
