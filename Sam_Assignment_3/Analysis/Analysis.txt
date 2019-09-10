@@ -9,25 +9,21 @@ Single Responsibility Principal:
 Interface Segregation:
   - This Rule Does not apply as the main class does not have any interfaces that it implements or defines. 
   
-________
-  
-<<<<<<< Updated upstream
-Files: IFeedable.java, IWork.java
-=======
+--------------------------------------------------------------------------
+
 Files: IEat.java, IWork.java, IDrect.java, IManage.java, IControl.java
->>>>>>> Stashed changes
+Authors: David Kim, Shelby Jordan
   
 Open Close Principal:
     - These files are interfaces and therefore cannot be extended by a class, it can only be extended by a fellow interface. IWorker.java extends this interface to allow its methods to be seen by the IWorker interface, but the interfaces themselves are separate allowing easier modular maintenance and modification and allows new features to be added without modifying any of the existing code by extending the interface and adding code on top of the methods that already exist.
     
 Single Responsibility Principal:
-    - This interface is only responsible for defining one method and does not have any other methods within it. Hence its scope is limited to eating and hence adheres to the principal.
+    - These interfaces are only responsible for defining one method and do not have any other methods within it. Hence their scope is limited to eating/working/managing/directing and hence adheres to the principal.
    
 Interface Segregation Principal:
-    - Each of these interfaces has well defined and different jobs without overlapping code or responsibility. The IEat class only eats and the IWork class only works. Since there is no overlap or additional operations performed by the interface, it adheres to this principal. 
+    - Each of these interfaces has well defined and different jobs without overlapping code or responsibility. For example, the IEat class only eats and the IWork class only works. Since there is no overlap or additional operations performed by the interface, it adheres to this principal. 
     
-________
-
+--------------------------------------------------------------------------
 File: IWorker:
 
 Open Close Principal:
@@ -37,11 +33,7 @@ Single Responsibility Principal:
     - This interface extends multiple interfaces with different responsibilities, therefore violates this principal. 
     
 Interface Segregation:
-<<<<<<< Updated upstream
     - Splitting this interface with IEat and IWork allows new classes to not implement any of the methods that they will not use. This interface adheres to this principal.
-=======
-    - 
-   
------------
 
->>>>>>> Stashed changes
+
+
