@@ -51,7 +51,7 @@ Single responsibility principle:
 Interface segregation principle:
 --------------------------------------------------------------------------
 
-Files: IEat.java, IWork.java, IDrect.java, IManage.java, IControl.java
+Files: IEat.java, IWork.java, IDrect.java, IManage.java, 
 Author(s): David Kim, Shelby Jordan
   
 Open/Close principle:
@@ -60,8 +60,6 @@ interface. IWorker.java extends the IWork and IEat interface to allow its method
 interface, but the interfaces themselves are separate allowing easier modular maintenance and modification and 
 allows new features to be added without modifying any of the existing code by extending the interface and adding
 code on top of the methods that already exist. 
-    - Likewise, the IDirect and IManage interfaces are extended in the IControl interface. This allows the methods
-of IDirect and IManage to have new additions without breaking any existing dependancies.
     
 Single responsibility principle:
     - These interfaces are only responsible for defining one method and do not have any other methods within it. 
@@ -74,7 +72,19 @@ operations performed by the interface, it adheres to this principal.
     - Furthermore, the IManage and IDirect interfaces were seperated as such because there are many roles
 within organizations that have the responsibilities of one or both roles. This allows for the responsibilities
 of each interface to be implemented seperately between different classes.
-    
+
+---------------------------------------------------------------------------
+
+File: IControl.java
+Author(s):
+
+Open/Close principle: - The IDirect and IManage interfaces are extended in the IControl interface. As such, the
+interface cannot be extended again due to restrictions in Java. That being noted, this interface is not applicable
+to the Open/Close principle.
+
+Single responsibility principle:
+
+Interface segregation principle:
 --------------------------------------------------------------------------
 
 File: IWorker.java
