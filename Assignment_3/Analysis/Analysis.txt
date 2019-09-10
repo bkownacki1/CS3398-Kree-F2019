@@ -85,8 +85,7 @@ Open/Close principle:
 be extended for a 2nd time due to single inheritance. So this principal does not apply to this class. 
     
 Single responsibility principle:
-    - This interface only inherits the required methods and is not able to extend any other interfaces so therefore 
-it adheres to this principle.
+    - This interface extends multiple interfaces with different responsibilities, therefore violates this principal. 
     
 Interface segregation principle:
     - Splitting this interface with IEat and IWork allows new classes to not implement any of the methods that they 
