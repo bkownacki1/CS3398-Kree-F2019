@@ -6,66 +6,66 @@ Below is the analysis for each file. Additionally, the author for each file anal
 File: ThreeSolidMain.java
 Author(s): David Kim, Sam Pugh
 
-Open/Close principle:
+Open/Close Principle:
   - This principal does not apply to this file because the main function is static and hence all of the methods are not
 inherited because the child class will have not access to the variables and methods defined within the class. 
   
-Single responsibility principle:
+Single Responsibility Principle:
   - This class follows this principal because the main class is only responsible for calling the object methods and 
 performing IO related operations. It does not perform any of the calculations that are to be outputted. These are 
 handled in the Classes themselves. 
   
-Interface segregation principle:
+Interface Segregation Principle:
   - This Rule Does not apply as the main class does not have any interfaces that it implements or defines. 
 ---------------------------------------------------------------------------
 
 File: Manager.java
 Author(s):
 
-Open/Close principle:
+Open/Close Principle:
 
-Single responsibility principle:
+Single Responsibility Principle:
 
-Interface segregation principle:
+Interface Segregation Principle:
 
 ---------------------------------------------------------------------------
 
 File: Worker.java, SuperWorker.java
 Author(s):
 
-Open/Close principle:
+Open/Close Principle:
 
-Single responsibility principle:
+Single Responsibility Principle:
 
-Interface segregation principle:    
+Interface Segregation Principle:    
 
 ---------------------------------------------------------------------------
 
 File: Robot.java
 Author(s):
 
-Open/Close principle:
+Open/Close Principle:
 
-Single responsibility principle:
+Single Responsibility Principle:
 
-Interface segregation principle:
+Interface Segregation Principle:
 --------------------------------------------------------------------------
 
 Files: IEat.java, IWork.java, IDrect.java, IManage.java, 
 Author(s): David Kim, Shelby Jordan, Sam Pugh
   
-Open/Close principle:
+Open/Close Principle:
     - These files are interfaces and therefore cannot be extended by a class, it can only be extended by a fellow 
 interface. IWorker.java extends the IWork and IEat interface to allow its methods to be seen by the IWorker 
 interface, but the interfaces themselves are separate allowing easier modular maintenance and modification and 
 allows new features to be added without modifying any of the existing code by extending the interface and adding
 code on top of the methods that already exist. 
     
-Single responsibility principle:
+Single Responsibility Principle:
     - These interfaces are only responsible for defining one method and do not have any other methods within it. 
 Hence their scope is limited to eating/working/managing/directing and hence adheres to the principal.
    
-Interface segregation principle:
+Interface Segregation Principle:
     - Each of these interfaces has well defined and different jobs without overlapping code or responsibility. 
 For example, the IEat class only eats and the IWork class only works. Since there is no overlap or additional 
 operations performed by the interface, it adheres to this principal. 
@@ -78,36 +78,36 @@ of each interface to be implemented seperately between different classes.
 File: IControl.java
 Author(s): Shelby Jordan, Sam Pugh
 
-Open/Close principle: 
-- The IDirect and IManage interfaces are extended in the IControl interface. As such, the
+Open/Close Principle: 
+    - The IDirect and IManage interfaces are extended in the IControl interface. As such, the
 interface cannot be extended again due to restrictions in Java. That being noted, this interface is not applicable
 to the Open/Close principle. It can however add other interfaces to the list of extended interfaces
 
-Single responsibility principle: -This interface extends methods from IDirect and IManage which are methods that the
+Single Responsibility Principle: 
+    -This interface extends methods from IDirect and IManage which are methods that the
 control interface needs to operate. As it is, the interface adheres to this principle.
 
-Interface segregation principle:
+Interface Segregation Principle:
   - Extending the IDirect and IManage classes allows their function to be maintained while adding additional features for customers who may need the functionality of the IDirect and IManage class. This while leaving their base functions in tact and allows the previous features for the customers to remain untouched while adding the functionality that may be needed by another set of customers. This modularity ensures that no interface is giving access to methods that a customer does not need or use. Thus it adheres to the interface segregation principal.
-  
   
 --------------------------------------------------------------------------
 
 File: IWorker.java
 Author(s): David Kim, Sam Pugh
 
-Open/Close principle:
+Open/Close Principle:
     - This Interface extends 2 additional interfaces and due to the rules of java inheritance, this interface cannot 
 be extended for a 2nd time due to single inheritance. So this principal does not apply to this class. 
     
-Single responsibility principle:
+Single Responsibility Principle:
     - This interface inherits methods that this interface only needs. Also, there is only one reason for change, 
 if a robot/machine were to replace a human worker, so this interface adheres this principle.
     
-Interface segregation principle:
-    - Splitting this interface with IEat and IWork allows new classes to not implement any of the methods that they 
+Interface Segregation Principle:
+    - Splitting this interface with IEat and IWork disallows new classes from implementing any of the methods that they 
 will not use. This interface adheres to this principal.
 
-
+--------------------------------------------------------------------------
 
 
 
