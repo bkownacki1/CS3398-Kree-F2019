@@ -88,7 +88,11 @@ Single Responsibility Principle:
 control interface needs to operate. As it is, the interface adheres to this principle.
 
 Interface Segregation Principle:
-  - Extending the IDirect and IManage classes allows their function to be maintained while adding additional features for customers who may need the functionality of the IDirect and IManage class. This while leaving their base functions in tact and allows the previous features for the customers to remain untouched while adding the functionality that may be needed by another set of customers. This modularity ensures that no interface is giving access to methods that a customer does not need or use. Thus it adheres to the interface segregation principal.
+  - Extending the IDirect and IManage classes allows their function to be maintained while adding additional 
+features for customers who may need the functionality of the IDirect and IManage class. This while leaving their 
+base functions in tact and allows the previous features for the customers to remain untouched while adding the 
+functionality that may be needed by another set of customers. This modularity ensures that no interface is giving 
+access to methods that a customer does not need or use. Thus it adheres to the interface segregation principal.
   
 --------------------------------------------------------------------------
 
