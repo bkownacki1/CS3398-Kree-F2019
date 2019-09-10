@@ -83,7 +83,7 @@ interface cannot be extended again due to restrictions in Java. That being noted
 to the Open/Close principle. It can however add other interfaces to the list of extended interfaces
 
 Single responsibility principle: -This interface extends methods from IDirect and IManage which are methods that the
-control interface needs to operate. As it is, the interface is
+control interface needs to operate. As it is, the interface adheres to this principle.
 
 Interface segregation principle:
 --------------------------------------------------------------------------
