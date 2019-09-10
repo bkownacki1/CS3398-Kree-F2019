@@ -4,7 +4,7 @@ Below is the analysis for each file. Additionally, the author for each file anal
 ---------------------------------------------------------------------------
 
 File: ThreeSolidMain.java
-Author(s): David Kim
+Author(s): David Kim, Sam Pugh
 
 Open/Close principle:
   - This principal does not apply to this file because the main function is static and hence all of the methods are not
@@ -52,7 +52,7 @@ Interface segregation principle:
 --------------------------------------------------------------------------
 
 Files: IEat.java, IWork.java, IDrect.java, IManage.java, 
-Author(s): David Kim, Shelby Jordan
+Author(s): David Kim, Shelby Jordan, Sam Pugh
   
 Open/Close principle:
     - These files are interfaces and therefore cannot be extended by a class, it can only be extended by a fellow 
@@ -76,7 +76,7 @@ of each interface to be implemented seperately between different classes.
 ---------------------------------------------------------------------------
 
 File: IControl.java
-Author(s): Shelby Jordan
+Author(s): Shelby Jordan, Sam Pugh
 
 Open/Close principle: - The IDirect and IManage interfaces are extended in the IControl interface. As such, the
 interface cannot be extended again due to restrictions in Java. That being noted, this interface is not applicable
@@ -88,7 +88,7 @@ Interface segregation principle:
 --------------------------------------------------------------------------
 
 File: IWorker.java
-Author(s): David Kim
+Author(s): David Kim, Sam Pugh
 
 Open/Close principle:
     - This Interface extends 2 additional interfaces and due to the rules of java inheritance, this interface cannot 
