@@ -27,7 +27,8 @@ Open/Close principle:
 You can create these more specific classes to allow for extension rather than modifiying the code for every change needed.
   
 Single responsibility principle:
-  - This class follows this principle since Manager is responsible for setting the workers and managing them based on what kind of worker they are.
+  - This class follows this principle since Manager is responsible for setting the workers and managing 
+them based on what kind of worker they are.
 
 Interface segregation principle:
   -
