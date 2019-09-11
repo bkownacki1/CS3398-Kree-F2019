@@ -31,7 +31,8 @@ Single responsibility principle:
 them based on what kind of worker they are.
 
 Interface segregation principle:
-  -
+  - This class follows this principle since the class implements IControl and IWorker interfaces that perform 
+different functions and do not overlap.
 
 ---------------------------------------------------------------------------
 
