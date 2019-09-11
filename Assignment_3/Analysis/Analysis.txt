@@ -23,7 +23,8 @@ File: Manager.java
 Author(s): Jesse Munoz
 
 Open/Close principle:
-  - This class follows the open/close principle since the class can be extended to a more specific class. You can create these more specific classes to allow for extension rather than modifiying the code for every change needed.
+  - This class follows the open/close principle since the class can be extended to a more specific class. 
+You can create these more specific classes to allow for extension rather than modifiying the code for every change needed.
   
 Single responsibility principle:
   - This class follows this principle since Manager is responsible for setting the workers and managing them based on what kind of worker they are.
