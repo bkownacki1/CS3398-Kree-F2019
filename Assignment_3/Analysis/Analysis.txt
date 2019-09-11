@@ -40,13 +40,14 @@ File: Worker.java, SuperWorker.java
 Author(s):
 
 Open/Close principle:
-  - 
+  - Since both classes implements IWorker, the Worker class does not need any modification if any changes have to be made. 
+ If changes need to be made, instead of continuously modifying the class, changes can be made by extending the class.  
 
-Single responsibility principle:
-  - 
+Single responsibility principle: 
+  - The 2 classes violate the principle because they have 2 responsibilities and the class would have to be changed if a machine were to be added as a worker/super worker.
 
-Interface segregation principle:
-  - 
+Interface segregation principle: 
+  - The 2 classes violate the principle because since the class is implementing IWork and IEat, it has to implement the methods in that interface. So if a non human worker were to replace a human worker, the robot will the method eat which it will never use.    
 
 ---------------------------------------------------------------------------
 
