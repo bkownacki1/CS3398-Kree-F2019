@@ -37,10 +37,13 @@ File: Worker.java, SuperWorker.java
 Author(s):
 
 Open/Close principle:
+  - 
 
 Single responsibility principle:
+  - 
 
-Interface segregation principle:    
+Interface segregation principle:
+  - 
 
 ---------------------------------------------------------------------------
 
@@ -48,10 +51,14 @@ File: Robot.java
 Author(s):
 
 Open/Close principle:
+  - The robot class implements an interface, but is still open to extension. Say we were requested to build an android class to supplement the robot. This class can extend the robot class and add additional methods without modifying the code in the robot class.
 
 Single responsibility principle:
+  - 
 
 Interface segregation principle:
+  - the robot class implements the IWork interface which explicitly grants the method Work for this file. This interface implementation has limited scope and is segregated from the other functions of the code that the  Robot does not need such as eating. 
+  
 --------------------------------------------------------------------------
 
 Files: IEat.java, IWork.java, IDrect.java, IManage.java, 
