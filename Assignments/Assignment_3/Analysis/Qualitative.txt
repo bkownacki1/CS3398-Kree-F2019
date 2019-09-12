@@ -1,0 +1,8 @@
+Qualitative Analysis:
+Author(s): Sam Pugh, Shelby Jordan
+
+    The idea behind our current file configuration was to minimize repetition of code and guarentee a modular structure
+of the source files. To clairfy, this modularity adheres to the ThreePrinicipals in that each file has a specific
+purpose, focuses only on its responsibilities, and is designed to be easily extended. Additionally, the interfaces are
+all segregated and have specific work that is not overlapped in the rest of the code base. This allows a class to
+implement the interfaces they need to function without including unneccessary code.
