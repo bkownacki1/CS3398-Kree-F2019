@@ -1,3 +1,4 @@
+//Author(s): Shelby Jordan, Sam Pugh
 package threesolid;
 
 public class Manager implements IManage {
