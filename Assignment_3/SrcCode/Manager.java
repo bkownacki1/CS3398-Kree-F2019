@@ -1,7 +1,6 @@
-//Authors: Shelby Jordan, Sam Pugh
 package threesolid;
 
-public class Manager implements IControl {
+public class Manager implements IManage {
 
 	public Manager() {
 	}
@@ -14,7 +13,7 @@ public class Manager implements IControl {
 
 	@Override
 	public void setWorker(IWorker w) {
-		// TODO Auto-generated method stub
+		worker = w;
 
 	}
 	
