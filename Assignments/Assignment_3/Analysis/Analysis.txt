@@ -55,7 +55,7 @@ be an improper use of this class. That being noted, this class adheres to the in
 ---------------------------------------------------------------------------
 
 File: Robot.java
-Author(s): Sam Pugh, 
+Author(s): Sam Pugh, Ben Kownacki
 
 Open/Close principle:
   - The Robot class implements an interface, but is still open to extension. Say we were requested to build an android class to supplement the robot. This class can extend the robot class and add additional methods without modifying the code in the robot class.
