@@ -36,7 +36,7 @@ perform different functions and do not overlap.
 ---------------------------------------------------------------------------
 
 File: Worker.java, SuperWorker.java
-Author(s): David Kim
+Author(s): David Kim, Shelby Jordan
 
 Open/Close principle:
   - Since both classes implements IWorker, the Worker class does not need any modification if any changes have to be made. 
@@ -46,7 +46,11 @@ Single responsibility principle:
   - the 2 classes follow the principle because it is only responsible for making sure the worker eats and works.
 
 Interface segregation principle: 
-  - The 2 classes violate the principle because since the class is implementing IWork and IEat, it has to implement the methods in that interface. So if a non human worker were to replace a human worker, the robot will the method eat which it will never use.    
+  - The classes implement the two methods from IWorker which is a specialized interface for living workers. If
+this class is extended, the interface segregation principle will not be violated so long as the child classes are
+workers that are alive. If a child class were to be made and not need one of the methods, then that child class
+should instead implement the IWork or IEat interfaces seperately; creating a child class that is not living would
+be an improper use of this class. That being noted, this class adheres to the interface segregation principle.  
 
 ---------------------------------------------------------------------------
 
