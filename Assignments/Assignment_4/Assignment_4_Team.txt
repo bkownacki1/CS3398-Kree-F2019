@@ -1,8 +1,21 @@
 Assignment_4:
   
 Project Name:
-  - 
-  
+  1. Parking Simulator
   
 Description: 
+  1. David Kim, Shelby Jordan, Ben Kownacki, Jesse Munoz.
+  
+  2. Parking Simulator
+  
+  3. Students at Texas State University. Hope to alleviate student stress assiciated with getting a good parking spot on campus.
+  
+  4. Hope to ease the burden of finding a parking spot on campus at any point during the day. 
+    
+    
+Technologies:
+  1. Java Application
+  2. Google Maps API
+  
+Features:
   1. 
