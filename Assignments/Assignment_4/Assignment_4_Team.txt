@@ -21,9 +21,15 @@ Technologies:
   4. SQL based database integration.
   
 Features:
-  1. Location of best proprability of free parking spaces in the respective lots.
-  2. Real time map feed shown By Google Maps API indicating congestion hazards around parking areas that may limit parking options. 
-  
+  Parking 101:
+    1. Location of best proprability of free parking spaces in the respective lots.
+    
+        Stories: Parking Story Authored by Shelby J
+    
+  Migration Monitor:     
+    1. Real time map feed shown By Google Maps API indicating congestion hazards around parking areas that may limit parking options. 
+    
+        Stories: Parking Story Authored by Shelby J
   
 Additional Feature Ideas If Time: 
   - Places most likely to get parking tickets without propper permit, display warnings in the GUI.
