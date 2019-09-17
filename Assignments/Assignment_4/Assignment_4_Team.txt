@@ -20,7 +20,7 @@ Technologies:
   3. Node.Js for server and Controller/Database integration. 
   4. SQL based database integration.
   
-Features:
+Main Features:
   Parking 101:
     1. Location of best proprability of free parking spaces in the respective lots.
     
