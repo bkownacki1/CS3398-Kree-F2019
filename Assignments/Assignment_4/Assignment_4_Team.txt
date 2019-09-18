@@ -27,10 +27,11 @@ Main Features:
         Stories: Parking Story Authored by Shelby J
     
   Migration Monitor:     
-    1. Real time map feed shown By Google Maps API indicating congestion hazards around parking areas that may limit parking options. 
+    1. Real time map feed shown By Google Maps API indicating additional Street Parking options at peak hours of the day.
     
         Stories: Parking Story Authored by Shelby J
   
 Additional Feature Ideas If Time: 
   - Places most likely to get parking tickets without propper permit, display warnings in the GUI.
-  - Additional Street Parking options at peak hours of the day.
+  - Congestion hazards around parking areas that may limit parking options.
+
