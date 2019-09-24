@@ -179,8 +179,16 @@ a.article:hover {
 /* ---------------------------------------------------
     Footer Content
 ----------------------------------------------------- */
-footer {
-  flex-shrink: none;
+#footer_wrapper {
+  margin: 0;
+  padding: 0;
+  background-color: grey;
+  height: 125px;
+  width: auto;
+}
+
+#footer_wrapper .container{
+    line-height: 125px;
 }
 
 /* ---------------------------------------------------
