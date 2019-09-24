@@ -148,7 +148,7 @@ a.article:hover {
     transition: all 0.3s;
 }
 /* ---------------------------------------------------
-    Image Gallery, Into Style
+    Main Content Section of Page
 ----------------------------------------------------- */
 .row {
   display: flex;
@@ -160,6 +160,8 @@ a.article:hover {
   flex: 25%;
   max-width: 50%;
   padding: 0 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .column img {
@@ -173,6 +175,7 @@ a.article:hover {
   vertical-align: middle;
   width: 100%;
 }
+
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
