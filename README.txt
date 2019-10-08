@@ -68,6 +68,16 @@ David Kim Individual: Assignment 8:
   Artifact: 
     Location: Term_Project/Soft_Eng_Proj/User_Input/demoDisplay.html, UserInput.js
 _______________________________
+
+Shelby Jordan Individual: Assignment 8:
+  
+  Feature/Accomplishment:
+    - Researched JS, HTML, css, and node.js
+
+  Artifact: 
+    Location:	CS3398-Kree-F2019/Doss-alt/HTML_Examples/first_HTML_page_with_basic_JS.html
+		CS3398-Kree-F2019/Doss-alt/HTML_Examples/css_test1.css
+_______________________________
 Project Status:
   
   Sam Pugh:
