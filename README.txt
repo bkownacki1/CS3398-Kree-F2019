@@ -59,6 +59,15 @@ Ben Kownacki Individual: Assignment 8:
   Artifact: 
     Location: Term_Project/Soft_Eng_Proj/WebPage_Front_End/index.html, master.js
 _______________________________
+David Kim Individual: Assignment 8:
+  
+  Feature/Accomplishment:
+    - Added JS code to validate and gather user inputs
+    - Researched Google Maps API, JS, and node.js
+
+  Artifact: 
+    Location: Term_Project/Soft_Eng_Proj/User_Input/demoDisplay.html, UserInput.js
+_______________________________
 Project Status:
   
   Sam Pugh:
@@ -70,6 +79,7 @@ Project Status:
     - Researched Javascript, HTML, node.js, and the Google Maps API. Got and distributed API key and added features to the front end's map to get acclimated to the Maps API. 
 
   David:
+    - Researched Javascript, HTML, node.js, and the Google Maps API. Added JS code to validate the user input and collect the data.
 
   Jesse:
 _______________________________
@@ -86,6 +96,7 @@ Project Next Step:
     - Implement node.js features and work on accepting user input for pathfinding.
 
   David:
+    - Create node.js server framework to handle inputs with Sam.
 
   Jesse:
 _______________________________
@@ -116,6 +127,8 @@ What Went Well or maybe not?
       - Using the Google Maps API seemed really simple at first, yet I could not get it to work no matter what I tried. I ended up scrapping my attempt to add a map to my own HTML file and just using the one on the app's homepage. After I started using the app on the homepage I made a lot more progress and learned a lot more about JavaScript and the Maps API. 
 
     David:
+      - Adding the javascript code to validate and gather the user input went well. Only downside is that it took a bit
+	longer than I wanted.
 
     Jesse:
 
@@ -147,6 +160,7 @@ What Can We do to Improve?
       - I need to spend more time working on the project outside of class days. A lot more progress would have been made if I was doing work on M/W/F/S/U instead of just T/H. I also need to get better about updating the Zenhub. Even when I finished a task I would not move it to done in Zenhub just because I didn't think of it and I need to remind myself to do that so we have a consistent burndown chart. 
 
     David:
+      - Better time management. With work and other classes, I tend to focus on one class work more than others causing me to rush or do projects the last 		minute. Also I need to be on top of checking ZenHub and making updates.
 
     Jesse:
   

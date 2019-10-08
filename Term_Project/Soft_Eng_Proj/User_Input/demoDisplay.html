@@ -1,0 +1,41 @@
+<!------ Scratch HTML ------>
+
+<html>
+<body>
+
+<div class="row">
+  <div class="column">
+
+    <!-- Input text fields -->
+    <div class="input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Lat Coordinates</span>
+      </div>
+      <input id="latInput" type="text" class="form-control" placeholder="Format: XXX.XX" aria-label="lat_coord" aria-describedby="basic-addon1">
+      <P id='latError' class="errorMessage"></P>
+    </div>
+  </div>
+</div>
+
+    <!-- Input text fields -->
+    <div class="input-group-sm mb-3">
+      <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">Long Coordinates</span>
+      </div>
+      <input id="longInput" type="text" class="form-control" placeholder="Format: XXX.XX" aria-label="long_coord" aria-describedby="basic-addon1">
+      <P id='longError' class="errorMessage"></P>
+    </div>
+  </div>
+</div>
+
+<!-- Submit Button -->
+<button type="button" class="btn btn-secondary" id = "subButton">Submit</button>
+<p id="status" class="errorMessage"></p>
+
+<!-- Clear Web Form Button -->
+<button type="button" class="btn btn-secondary" id = "clearButton">Clear Web Form</button>
+
+<script src="UserInput.js"></script>
+
+</body>
+</html>
