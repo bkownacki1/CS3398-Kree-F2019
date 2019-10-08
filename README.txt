@@ -72,7 +72,7 @@ _______________________________
 Shelby Jordan Individual: Assignment 8:
   
   Feature/Accomplishment:
-    - Researched JS, HTML, css, and node.js
+    - Researched JS, HTML, CSS, and node.js
 
   Artifact: 
     Location:	CS3398-Kree-F2019/Doss-alt/HTML_Examples/first_HTML_page_with_basic_JS.html
@@ -84,6 +84,7 @@ Project Status:
     - Web App front end us built and team has versed themselves on Node.js, and regular JavaScript for the next phase of the Sprint.
 
   Shelby:
+    - Mock HMTL page with JS and CSS integrated was created to prove research was fruitfull. 
 
   Ben:
     - Researched Javascript, HTML, node.js, and the Google Maps API. Got and distributed API key and added features to the front end's map to get acclimated to the Maps API. 
@@ -100,6 +101,9 @@ Project Next Step:
     - Create GUI Buttons relating to Polygons drawn by Ben.
 
   Shelby:
+    - Familiarize self with what has been built, build SQL tables inside the database, and integrate Google Maps API into
+      the internal database. 
+    - Also, research Google Maps API and examine website design for security vulnerabilities if there is time.
 
   Ben:
     - Add polygons for all Parking areas at Texas State. Assist Sam with GUI features.
@@ -132,6 +136,10 @@ What Went Well or maybe not?
         Differences in Javascript Engines and back end rendering agents.
 
     Shelby:
+      - Researching JS, HTML, node.js, and CSS took a long time because I have no experience with them. Due to my lack of
+	knowledge, I feel as if I am not able to contibute to the project as much as I would like. If this had been a Java
+	program, I could have spent this sprint assisting development instead of researching. I feel as if I chose the wrong
+	group to be in or the wrong project.
 
     Ben:
       - Using the Google Maps API seemed really simple at first, yet I could not get it to work no matter what I tried. I ended up scrapping my attempt to add a map to my own HTML file and just using the one on the app's homepage. After I started using the app on the homepage I made a lot more progress and learned a lot more about JavaScript and the Maps API. 
@@ -165,6 +173,11 @@ What Can We do to Improve?
         Times in class. 
 
     Shelby:
+      - I would like to sit down or form a discord chat to go into every aspect of the design thus far from either Sam or
+	Ben when they have time. I do not feel confident enough in my understanding of HTML, JS, CSS, node.js, and the APIs
+	to jump into the project without potentially doing damage. I would prefer to have either Sam or Ben direct me what
+	I can do to contribute at this point. I am frustrated with how much time it has taken me to understand the basic
+	components of this project.
 
     Ben:
       - I need to spend more time working on the project outside of class days. A lot more progress would have been made if I was doing work on M/W/F/S/U instead of just T/H. I also need to get better about updating the Zenhub. Even when I finished a task I would not move it to done in Zenhub just because I didn't think of it and I need to remind myself to do that so we have a consistent burndown chart. 
