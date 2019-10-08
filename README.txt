@@ -2,7 +2,7 @@
 
 Assignment_4:
 
-Authors: Sam Pugh, Ben Kownacki, David Kim, Shelby J.
+Authors: Sam Pugh, Ben Kownacki, David Kim, Shelby J, Jesse Munoz.
   
 Project Name:
   1. Texas State Parking Simulator
@@ -78,6 +78,13 @@ Shelby Jordan Individual: Assignment 8:
     Location:	CS3398-Kree-F2019/Doss-alt/HTML_Examples/first_HTML_page_with_basic_JS.html
 		CS3398-Kree-F2019/Doss-alt/HTML_Examples/css_test1.css
 _______________________________
+Jesse Munoz Individual: Assignment 8:
+  
+  Feature/Accomplishment:
+    - Reaserched JS, CSS, Node js, and some html
+
+  Artifact: 
+    _______________________________
 Project Status:
   
   Sam Pugh:
@@ -93,6 +100,7 @@ Project Status:
     - Researched Javascript, HTML, node.js, and the Google Maps API. Added JS code to validate the user input and collect the data.
 
   Jesse:
+    - Researched javascript, node.js, html, and css. Working to better understand it all to work into group project.
 _______________________________
 Project Next Step:
     
@@ -113,6 +121,7 @@ Project Next Step:
     - Create node.js server framework to handle inputs with Sam.
 
   Jesse:
+    - Work to incorporate what i have learned into the project in any way i can.
 _______________________________
 • Retrospective For Sprint 1
 
@@ -127,6 +136,8 @@ What Went Well or maybe not?
     - Whole group seemed optimistic about new ideas and excited to learn about them rather than wanting to take the easy way.
 
     - Documenting what we did was difficult because in this first phase most of us did mostly research. This should get better in the next phase when research won't be as necessary and all progress should come in the form of code.
+    
+    - This was a difficult time but i think moving foward it should go better.
 
 
   Individual:
@@ -149,6 +160,7 @@ What Went Well or maybe not?
 	longer than I wanted.
 
     Jesse:
+      - Learning everything took a little longer than expected but moving foward this should work out better.
 
 Specs:
   (4 pts – Team) Four or more team bullets
@@ -185,7 +197,8 @@ What Can We do to Improve?
     David:
       - Better time management. With work and other classes, I tend to focus on one class work more than others causing me to rush 	or do projects the last minute. Also I need to be on top of checking ZenHub and making updates.
 
-    Jesse:
+    Jesse: 
+      - I need to spend more time working on this project than worrying about work and other classes. I also feel that i need to communicate better with my classmates to understand best where i can help out.
   
 
 
