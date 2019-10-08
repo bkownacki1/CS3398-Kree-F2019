@@ -37,7 +37,7 @@ Additional Feature Ideas If Time:
   - Places most likely to get parking tickets without propper permit, display warnings in the GUI.
   - Congestion hazards around parking areas that may limit parking options.
 _______________________________
-Updates: 10-6-2019
+Updates: 10-7-2019
 _______________________________
 Sam Pugh Individual: Assignment 8:
   
@@ -49,6 +49,16 @@ Sam Pugh Individual: Assignment 8:
   Artifact: 
     Location: Term_Project/Soft_Eng_Proj/WebPage_Front_End/index.html, master.js, master.css
 _______________________________
+Ben Kownacki Individual: Assignment 8:
+  
+  Feature/Accomplishment:
+    - Added points and polygons to frontend map. 
+    - Got and distributed Google Maps API key. 
+    - Researched Google Maps API, JS, and node.js
+
+  Artifact: 
+    Location: Term_Project/Soft_Eng_Proj/WebPage_Front_End/index.html, master.js
+_______________________________
 Project Status:
   
   Sam Pugh:
@@ -57,6 +67,7 @@ Project Status:
   Shelby:
 
   Ben:
+    - Researched Javascript, HTML, node.js, and the Google Maps API. Got and distributed API key and added features to the front end's map to get acclimated to the Maps API. 
 
   David:
 
@@ -71,6 +82,8 @@ Project Next Step:
   Shelby:
 
   Ben:
+    - Add polygons for all Parking areas at Texas State. Assist Sam with GUI features.
+    - Implement node.js features and work on accepting user input for pathfinding.
 
   David:
 
@@ -82,11 +95,13 @@ What Went Well or maybe not?
 
   Team:
 
-    - Participation from most team members was good. Most were responsive and reachable
-      Via Slack while others were not which lead to issues. 
+    - Participation from most team members was good. Most were responsive and reachable Via Slack while others were not which lead to issues. 
 
-    - Class Time was used very effectively to plan and think ahead on what priorities 
-      needed to be made to bring about a working finished result.
+    - Class Time was used very effectively to plan and think ahead on what priorities needed to be made to bring about a working finished result.
+
+    - Whole group seemed optimistic about new ideas and excited to learn about them rather than wanting to take the easy way.
+
+    - Documenting what we did was difficult because in this first phase most of us did mostly research. This should get better in the next phase when research won't be as necessary and all progress should come in the form of code.
 
 
   Individual:
@@ -98,6 +113,7 @@ What Went Well or maybe not?
     Shelby:
 
     Ben:
+      - Using the Google Maps API seemed really simple at first, yet I could not get it to work no matter what I tried. I ended up scrapping my attempt to add a map to my own HTML file and just using the one on the app's homepage. After I started using the app on the homepage I made a lot more progress and learned a lot more about JavaScript and the Maps API. 
 
     David:
 
@@ -113,9 +129,7 @@ What Might Be Impeding Us from Performing Better?
 What Can We do to Improve?
 
   Team: 
-    - Zenhub boards need to be updated daily so the rest of the team knows what is going 
-      on. It was hard to gauge where the project was at due to this and required messaging
-      On Slack to ensure this got done.
+    - Zenhub boards need to be updated daily so the rest of the team knows what is going on. It was hard to gauge where the project was at due to this and required messaging On Slack to ensure this got done. All teammates need to monitor Slack and make prompt responses otherwise it hurts the entire group. 
 
   Individual:
 
@@ -130,6 +144,7 @@ What Can We do to Improve?
     Shelby:
 
     Ben:
+      - I need to spend more time working on the project outside of class days. A lot more progress would have been made if I was doing work on M/W/F/S/U instead of just T/H. I also need to get better about updating the Zenhub. Even when I finished a task I would not move it to done in Zenhub just because I didn't think of it and I need to remind myself to do that so we have a consistent burndown chart. 
 
     David:
 
