@@ -160,7 +160,7 @@ What Can We do to Improve?
       - I need to spend more time working on the project outside of class days. A lot more progress would have been made if I was doing work on M/W/F/S/U instead of just T/H. I also need to get better about updating the Zenhub. Even when I finished a task I would not move it to done in Zenhub just because I didn't think of it and I need to remind myself to do that so we have a consistent burndown chart. 
 
     David:
-      - Better time management. With work and other classes, I tend to focus on one class work more than others causing me to rush or do projects the last 		minute. Also I need to be on top of checking ZenHub and making updates.
+      - Better time management. With work and other classes, I tend to focus on one class work more than others causing me to rush 	or do projects the last minute. Also I need to be on top of checking ZenHub and making updates.
 
     Jesse:
   
