@@ -20,9 +20,10 @@ function gatherInput() {
   if(lat && long != '' && isNumber(lat) && isNumber(long)) {
 
     // format for latitude coordinates
-    const latitudeC = new RegExp('/^(\\+|-)?(?:90(?:(?:\\.0{1,6})?)|(?:[0-9]|[1-8][0-9])(?:(?:\\.[0-9]{1,6})?))$/');
+    //const latitudeC = new RegExp('/^(\\+|-)?(?:90(?:(?:\\.0{1,6})?)|(?:[0-9]|[1-8][0-9])(?:(?:\\.[0-9]{1,6})?))$/');
+    const latitudeC = new RegExp('^[-+]?[0-9]{1,7}(\\.[0-9]+)?$');
     // test for correct format
-    if (lat.test(latitudeC) && lat != '') {
+    if (latitudeC.exec(lat)) {
       console.log('Latitude: ' + lat);
       lat_input.push(lat_input);
       document.getElementById('latError').innerHTML = '';
@@ -31,9 +32,10 @@ function gatherInput() {
     }
 
     // format for longitude coordinates
-    const longitudeC = /^(\\+|-)?(?:180(?:(?:\\.0{1,6})?)|(?:[0-9]|[1-9][0-9]|1[0-7][0-9])(?:(?:\\.[0-9]{1,6})?))$/;
+    //const longitudeC = new RegExp('/^(\\+|-)?(?:180(?:(?:\\.0{1,6})?)|(?:[0-9]|[1-9][0-9]|1[0-7][0-9])(?:(?:\\.[0-9]{1,6})?))$/');
+    const longitudeC = new RegExp('^[-+]?[0-9]{1,7}(\\.[0-9]+)?$');
     // test for correct format
-    if(long.test(longitudeC) && long != '') {
+    if(longitudeC.exec(long)) {
       console.log('Longitude: ' + long);
       lat_input.push(long_input);
       document.getElementById('longError').innerHTML = '';
@@ -54,6 +56,6 @@ function gatherInput() {
 
 // checks if input is a double
 function isNumber(input){
-  const regEx = /^-{0,1}\d*\.{0,1}\d+$/; // accepts negative inputs
+  const regEx = /^[-+]?[0-9]{1,7}(\.[0-9]+)?$/; // accepts negative inputs
   return (regEx.test(input));
 }
