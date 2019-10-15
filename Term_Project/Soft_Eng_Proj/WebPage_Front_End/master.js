@@ -3,10 +3,10 @@ function initMap() {
       var San_Marcos = {lat: 29.8884, lng: -97.9384};
       var Lbj = {lat: 29.889280, lng: -97.944592};
       var Alkek = {lat: 29.888865, lng: -97.943075};
-      // The map, centered at Uluru
+      // The map, centered at San Marcos
       var map = new google.maps.Map(
           document.getElementById('google_map'), {zoom: 16, center: San_Marcos});
-      // The marker, positioned at Uluru
+      // The marker, positioned at San Marcos
       var sanMarcosMarker = new google.maps.Marker({position: San_Marcos, map: map});
       var lbjMarker = new google.maps.Marker({position: Lbj, map: map, title: 'LBJ Student Center'});
       var alkMarker = new google.maps.Marker({position: Alkek, map: map, title: 'Alkek Library'});
@@ -35,6 +35,7 @@ function alterMap() {
 
 }
 
+// function called by onclick js method.
 $(document).ready(function () {
         $('#sidebarCollapse').on('click', function () {
         $('#sidebar').toggleClass('active');

@@ -55,7 +55,7 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
+    background: #800000;
     color: #fff;
     transition: all 0.3s;
 }
@@ -66,12 +66,12 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #800000;
+    line-height: 20px;
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul p {
@@ -86,14 +86,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #7386D5;
+    color: #800000;
     background: #fff;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #6d7fcc;
+    background: #800000;
 }
 
 a[data-toggle="collapse"] {
@@ -108,10 +108,21 @@ a[data-toggle="collapse"] {
     transform: translateY(-50%);
 }
 
+/*Override Button Info Class to Match TXstate Colors */
+.btn-info{
+    background-color: #AA6C39;
+    color: #000000;
+}
+
+.btn-info:hover{
+    background-color: #000000;
+    color: #AA6C39;
+}
+
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #800000;
 }
 
 ul.CTAs {
@@ -141,6 +152,7 @@ a.article:hover {
     CONTENT STYLE
 ----------------------------------------------------- */
 
+/* Main Content Section */
 #content {
     width: 100%;
     padding: 20px;
@@ -150,15 +162,31 @@ a.article:hover {
 /* ---------------------------------------------------
     Main Content Section of Page
 ----------------------------------------------------- */
+
+/* Center Main Header */
+#mainHeader{
+    text-align: center;
+}
+
+/* Title Image */
 #title_img{
     border: solid black 3px;
     border-radius: 10px;
     padding: 0;
 }
 
+/* Google Map API */
 #google_map {
     height: 400px; /* The height is 400 pixels */
     width: 100%;   /* The width is the width of the web page */ 
+}
+
+/* Prompt paragraph elements beneath Google Map */
+.mapPrompt{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 .row {
@@ -208,9 +236,9 @@ br {
 #footer_wrapper {
   margin: 0;
   padding: 0;
-  background-color: grey;
+  background-color: #AA6C39;
   height: 125px;
-  width: auto;
+  width: 100%;
 }
 
 #footer_wrapper .container{
@@ -228,6 +256,7 @@ br {
     #sidebar.active {
         margin-left: 0;
     }
+    
     #sidebarCollapse span {
         display: none;
     }

@@ -31,10 +31,10 @@
             </div>
 
             <ul class="list-unstyled components">
-                <p><b>Usefull Parking Links</b></p>
+                <p id="navbar_title"><b>Usefull Parking Links</b></p>
                 
                 <!-- Home Page Link --> 
-                <li class="active">
+                <li>
                     <a href="./index.html">Home</a>
                 </li>
 
@@ -71,33 +71,37 @@
                         <i class="fas fa-align-left"></i>
                        <span>Menu</span>
                     </button>
+                    
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button>
                     
+                    <!-- Collapsable Nav Bar --> 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Page</a>
+                                <a class="nav-link" href="#">Parking API</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Walking API</a>
+                            </li>
+                            <!-- Commenting out Until needed -->
+                            <!-- Commenting out Until needed
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Page</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Page</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
+                            --> 
                         </ul>
                     </div>
                 
                 </div>
             </nav>
 
-            <!-- Style Header --> 
-            <h2> Texas State Parking Apocolypse </h2> 
-
+            <!-- Style Header -->
+            <h1 id="mainHeader"> Texas State Parking Apocolypse </h1> 
             
             <div class="row">
             <!-- Image Source --> 
@@ -142,6 +146,12 @@
                 <div id="google_map"></div>
             </div>
         </div>
+        <br>
+        <p class="mapPrompt">Make A Selection In the Map Above </p>
+        <p class="mapPrompt">Dynamic HTML Will Be Inserted Here</p>
+        <!--
+
+        -->
         <br class="long_break">
         
         <!-- Container Row For Input Group -->
@@ -202,10 +212,11 @@
          
      </div>
      <!-- End Row Div For Container -->
+
             
       <!-- Page delimator -->
-      <div class="line"></div>
-            
+      <div class="line"></div>      
+        
         <!-- Wrapper to Format Footer -->
         <div id="footer_wrapper">
           <footer id="sticky-footer">
@@ -218,8 +229,7 @@
     </div>
     <!-- End Container Div For Main Content Section -->
 
-        
-    </div>
+    </div>  
     <!-- End Wrapper Div for WebPage --> 
     
 <!-- Script Statements to Link External JS Libraries -->
