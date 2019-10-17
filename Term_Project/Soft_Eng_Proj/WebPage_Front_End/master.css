@@ -86,8 +86,8 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #800000;
-    background: #fff;
+    color: #000000;
+    background: #AA6C39;
 }
 
 #sidebar ul li.active>a,
@@ -112,6 +112,10 @@ a[data-toggle="collapse"] {
 .btn-info{
     background-color: #AA6C39;
     color: #000000;
+}
+
+btn-secondary{
+    margin-right: 50px;
 }
 
 .btn-info:hover{
@@ -218,6 +222,11 @@ a.article:hover {
 .col-centered{
     float: none;
     margin: auto;
+}
+
+.dynamic-list{
+    display: none;
+    text-align: center; 
 }
 
 br {
