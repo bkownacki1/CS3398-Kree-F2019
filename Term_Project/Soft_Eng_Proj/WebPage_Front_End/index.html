@@ -160,21 +160,73 @@
         <br>
         <p class="mapPrompt"><b>Make A Selection In the Map Above</b></p>
         <p class="mapPrompt"><b>Dynamic HTML Will Be Inserted Here</b></p>
+        
+        <!-- Button Toolbar for Polygons on Map -->
+        <div class="row">
+          <div class="col-md-4 col-centered">
+              <div class="btn-roolbar btn-block" role="group" aria-label="">
+
+                    <!-- Submit Button -->
+                    <button type="button" class="btn btn-secondary btn-block" id="btn-strahan">Strahan-Coliseum-L</button>
+
+                    <button type="button" class="btn btn-secondary btn-block" id="btn-mathews">Mathews-G</button>
+                
+                    <button type="button" class="btn btn-secondary btn-block" id="btn-pleasant">Pleasant-G</button>
+                
+                    <button type="button" class="btn btn-secondary btn-block" id="btn-lbj">LBJ-G</button>
+              </div>
+            </div>
+            <div class="col-md-4 col-centered">
+               <div class="btn-roolbar btn-block" role="group" aria-label="">
+
+                    <!-- Submit Button -->
+                    <button type="button" class="btn btn-secondary btn-block" id="btn-strahan">Strahan-L</button>
+
+                    <button type="button" class="btn btn-secondary btn-block" id="btn-mathews">Mathews-G</button>
+                
+                    <button type="button" class="btn btn-secondary btn-block" id="btn-pleasant">Pleasant-G</button>
+                
+                    <button type="button" class="btn btn-secondary btn-block" id="btn-lbj">LBJ-G</button>
+              </div>
+          </div>
+              
+        </div>
+        <!-- End Button ToolBar -->
+        <br>
 
         <!-- Dynamic HTML Segment -->
-        <p class="dynamic-list" id="element1">dasda</p>
-        <p class="dynamic-list" id="element2">ddasd</p>
-        <p class="dynamic-list" id="element3">fasd</p>
-        <p class="dynamic-list" id="element4">fasdfad</p>
+        <ul class="dynamic-list" id="strahan_list">
+            <li>Strahan Parking Option 1</li>
+            <li>Strahan Parking Option 2</li>
+            <li>Strahan Parking Option 3</li>
+        </ul>
+        
+        <ul class="dynamic-list" id="mathews_list">
+            <li>Mathews Parking Option 1</li>
+            <li>Mathews Parking Option 2</li>
+            <li>Mathews Parking Option 3</li>
+        </ul>
+        
+        <ul class="dynamic-list" id="pleasant_list">
+            <li>Pleasant Parking Option 1</li>
+            <li>Pleasant Parking Option 2</li>
+            <li>Pleasant Parking Option 3</li>
+        </ul>
+        
+        <ul class="dynamic-list" id="lbj_list">
+            <li>LBJ Parking Option 1</li>
+            <li>LBJ Parking Option 2</li>
+            <li>LBJ Parking Option 3</li>
+        </ul>
+
 
         <br class="long_break">
 
         <!-- Container Row For Input Group -->
         <!-- Insert Web Form Here -->
+        <!--
         <div class="row">
             <div class="col-md-6 col-centered">
-
-              <!-- Input text fields -->
               <div class="input-group-sm mb-3">
                 <div class="input-group-prepend">
                   <span class="input-group-text" id="basic-addon1">Lat Coordinates</span>
@@ -183,12 +235,11 @@
               </div>
             </div>
         </div>
+        -->
 
-        <!-- Container Row For Input Group -->
+        <!-- Container Row For Input Group
         <div class="row">
             <div class="col-md-6 col-centered">
-
-              <!-- Input text fields -->
               <div class="input-group-sm mb-3">
                 <div class="input-group-prepend">
                   <span class="input-group-text" id="basic-addon1">Long Coordinates</span>
@@ -197,18 +248,14 @@
               </div>
             </div>
          </div>
+         -->
 
         <!-- Container Row Button Group -->
          <div class="row">
-            <div class="col-md-3 col-centered">
-
+            <div class="col-md-4 col-centered">
               <!-- Buttons to Send Input Information to JS Backend -->
               <div class="btn-roolbar btn-block" role="group" aria-label="">
-
-                <!-- Submit Button -->
-                <button type="button" id="submitForm" class="btn btn-secondary">Submit</button>
-
-                <button type="button" class="btn btn-secondary" id="resetForm">Reset       </button>
+                <button type="button" class="btn btn-secondary btn-block" id="resetForm">Reset</button>
               </div>
              </div>
          </div>

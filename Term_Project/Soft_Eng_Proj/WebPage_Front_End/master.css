@@ -12,6 +12,10 @@ p {
     color: #999;
 }
 
+ul{
+    list-style: none;
+}
+
 a,
 a:hover,
 a:focus {
@@ -112,10 +116,6 @@ a[data-toggle="collapse"] {
 .btn-info{
     background-color: #AA6C39;
     color: #000000;
-}
-
-btn-secondary{
-    margin-right: 50px;
 }
 
 .btn-info:hover{
@@ -238,7 +238,38 @@ br {
     display: block;
     margin: 5px;
 }
+/*------------------------------------------------------
+ Button Design Here
+-----------------------------------------------------*/
 
+/* Strahan */
+#btn-strahan{
+    background-color: #7b42c2;
+    border: solid 2px black;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#btn-mathews{
+    background-color: #0bd900;
+    border: solid 2px black;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+#btn-pleasant{
+    background-color: #ff0000;
+    border: solid 2px black;
+    color: black;
+    text-shadow: -1px 0 white, 0 1px grey, 1px 0 grey, 0 -1px white;
+}
+
+#btn-lbj{
+    background-color: #454545;
+    border: solid 2px black;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
 /* ---------------------------------------------------
     Footer Content
 ----------------------------------------------------- */

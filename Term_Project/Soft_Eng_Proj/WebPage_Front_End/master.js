@@ -16,15 +16,40 @@ $(document).ready(function () {
 });
 
 
-// Document to clear fields When User clicks reset
+// Document to clear fields When User clicks reset, Toggle Class Later On \\
 $(document).ready(function () {
     $('#resetForm').on('click', function(){
-    document.getElementById("element1").style.display = "none";
-    document.getElementById("element2").style.display = "none";
-    document.getElementById("element3").style.display = "none";
-    document.getElementById("element4").style.display = "none";
+    document.getElementById("strahan_list").style.display = "none";
+    document.getElementById("mathews_list").style.display = "none";
+    document.getElementById("pleasant_list").style.display = "none";
+    document.getElementById("lbj_list").style.display = "none";
     });
 });
 
+// Strahan Button interaction \\
+$(document).ready(function () {
+    $('#btn-strahan').on('click', function(){
+    document.getElementById("strahan_list").style.display = "block";
+    });
+});
 
+// Mathews Button interaction \\
+$(document).ready(function () {
+    $('#btn-mathews').on('click', function(){
+    document.getElementById("mathews_list").style.display = "block";
+    });
+});
 
+// Pleasant Button interaction \\
+$(document).ready(function () {
+    $('#btn-pleasant').on('click', function(){
+    document.getElementById("pleasant_list").style.display = "block";
+    });
+});
+
+// LBJ Button interaction \\
+$(document).ready(function () {
+    $('#btn-lbj').on('click', function(){
+    document.getElementById("lbj_list").style.display = "block";
+    });
+});
