@@ -487,9 +487,7 @@ function initMap() {
     //Sessom Lot (R2)
     var sessomR2Coords = [
         {lat: 29.890987, lng: -97.937563},
-        {lat: 29.891080, lng: -97.937544},
-        {lat: 29.891173, lng: -97.937610},
-        {lat: 29.891167, lng: -97.937706},
+        {lat: 29.891167, lng: -97.937706}, //curve
         {lat: 29.891285, lng: -97.937720},
         {lat: 29.891430, lng: -97.937661},
         {lat: 29.891515, lng: -97.937590},
@@ -502,7 +500,8 @@ function initMap() {
         {lat: 29.891755, lng: -97.936716},
         {lat: 29.891470, lng: -97.937148},
         {lat: 29.891256, lng: -97.937465},
-        {lat: 29.891173, lng: -97.937610}
+        {lat: 29.891173, lng: -97.937610},
+        {lat: 29.891080, lng: -97.937544}
     ];
 
     var sessomR2Lot = new google.maps.Polygon({
