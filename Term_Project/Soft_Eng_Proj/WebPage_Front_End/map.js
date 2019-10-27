@@ -501,7 +501,7 @@ function initMap() {
         {lat: 29.891470, lng: -97.937148},
         {lat: 29.891256, lng: -97.937465},
         {lat: 29.891173, lng: -97.937610},
-        {lat: 29.891080, lng: -97.937544}
+        {lat: 29.891017, lng: -97.937500}
     ];
 
     var sessomR2Lot = new google.maps.Polygon({
