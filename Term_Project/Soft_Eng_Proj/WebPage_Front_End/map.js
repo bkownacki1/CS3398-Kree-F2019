@@ -487,7 +487,7 @@ function initMap() {
     //Sessom Lot (R2)
     var sessomR2Coords = [
         {lat: 29.890987, lng: -97.937563},
-        {lat: 29.891167, lng: -97.937706}, //curve
+        {lat: 29.891167, lng: -97.937706},
         {lat: 29.891285, lng: -97.937720},
         {lat: 29.891430, lng: -97.937661},
         {lat: 29.891515, lng: -97.937590},
