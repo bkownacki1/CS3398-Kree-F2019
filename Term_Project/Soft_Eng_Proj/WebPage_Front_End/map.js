@@ -233,8 +233,8 @@ function initMap() {
     woodsStreetGarage.setMap(map);
     //End Woods Street Garage
 
-
     //End of Garages
+
 
     /* ----- Parking Lots ----- */
 
@@ -390,15 +390,15 @@ function initMap() {
     //end JCK/Sessom Lot
 
     // JCK/Moon Lot 1
-    var jckMoonCoords = [
+    var jckMoon1Coords = [
         {lat: 29.888340, lng: -97.938129},
         {lat: 29.888407, lng: -97.938285},
         {lat: 29.888625, lng: -97.938023},
         {lat: 29.888558, lng: -97.937918}
     ];
 
-    var jckMoonLot = new google.maps.Polygon({
-        paths: jckMoonCoords,
+    var jckMoonLot1 = new google.maps.Polygon({
+        paths: jckMoon1Coords,
         strokeColor: redFill,
         strokeOpacity: 0.8,
         strokeWeight: 2,
@@ -406,10 +406,139 @@ function initMap() {
         fillOpacity: 0.5
     });
 
-    jckMoonLot.setMap(map);
+    jckMoonLot1.setMap(map);
     //end JCK/Moon Lot 1
 
+    // JCK/Moon Lot 2
+    var jckMoon2Coords = [
+        {lat: 29.888032, lng: -97.938170},
+        {lat: 29.887406, lng: -97.938122},
+        {lat: 29.887538, lng: -97.937518},
+        {lat: 29.888099, lng: -97.937582},
+        {lat: 29.888091, lng: -97.937653},
+        {lat: 29.888121, lng: -97.937650},
+        {lat: 29.888272, lng: -97.937489},
+        {lat: 29.888497, lng: -97.937833}
+    ];
 
+    var jckMoon2Lot = new google.maps.Polygon({
+        paths: jckMoon2Coords,
+        strokeColor: redFill,
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: redFill,
+        fillOpacity: 0.5
+    });
+
+    jckMoon2Lot.setMap(map);
+    //end JCK/Moon Lot 2
+
+    //Freeman Lot
+    var freemanCoords = [
+        {lat: 29.889843, lng: -97.935787},
+        {lat: 29.889961, lng: -97.935865},
+        {lat: 29.890068, lng: -97.935750},
+        {lat: 29.890041, lng: -97.935563},
+        {lat: 29.889774, lng: -97.935185},
+        {lat: 29.889324, lng: -97.935414},
+        {lat: 29.889347, lng: -97.935650},
+        {lat: 29.889540, lng: -97.935637},
+        {lat: 29.889528, lng: -97.935476},
+        {lat: 29.889519, lng: -97.935481},
+        {lat: 29.889521, lng: -97.935455},
+        {lat: 29.889653, lng: -97.935403},
+        {lat: 29.889790, lng: -97.935414},
+        {lat: 29.889824, lng: -97.935612}
+    ];
+
+    var freemanLot = new google.maps.Polygon({
+        paths: freemanCoords,
+        strokeColor: redFill,
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: redFill,
+        fillOpacity: 0.5
+    });
+
+    freemanLot.setMap(map);
+    //end Freeman Lot
+
+    //Physics Plant Lot
+    var physPlantCoords = [
+        {lat: 29.891108, lng: -97.937745},
+        {lat: 29.891162, lng: -97.937941},
+        {lat: 29.891056, lng: -97.937974},
+        {lat: 29.890999, lng: -97.937780}
+    ];
+
+    var physPlantLot = new google.maps.Polygon({
+        paths: physPlantCoords,
+        strokeColor: redFill,
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: redFill,
+        fillOpacity: 0.5
+    });
+
+    physPlantLot.setMap(map);
+    //end Physics Plant Lot
+
+
+    //Sessom Lot (R2)
+    var sessomR2Coords = [
+        {lat: 29.890987, lng: -97.937563},
+        {lat: 29.891004, lng: -97.937515},
+        {lat: 29.891173, lng: -97.937610},
+        {lat: 29.891167, lng: -97.937706},
+        {lat: 29.891285, lng: -97.937720},
+        {lat: 29.891430, lng: -97.937661},
+        {lat: 29.891515, lng: -97.937590},
+        {lat: 29.891674, lng: -97.937381},
+        {lat: 29.892003, lng: -97.936920},
+        {lat: 29.891921, lng: -97.936845},
+        {lat: 29.891989, lng: -97.936733},
+        {lat: 29.891766, lng: -97.936601},
+        {lat: 29.891727, lng: -97.936688},
+        {lat: 29.891755, lng: -97.936716},
+        {lat: 29.891470, lng: -97.937148}
+    ];
+
+    var sessomR2Lot = new google.maps.Polygon({
+        paths: sessomR2Coords,
+        strokeColor: redFill,
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: redFill,
+        fillOpacity: 0.5
+    });
+
+    sessomR2Lot.setMap(map);
+    //end Sessom Lot R2
+
+    //Sessom Lot (P5)
+    var sessomP5Coords = [
+        {lat: 29.890910, lng: -97.937544},
+        {lat: 29.890991, lng: -97.937483},
+        {lat: 29.891173, lng: -97.937610},
+        {lat: 29.891470, lng: -97.937148},
+        {lat: 29.891755, lng: -97.936716},
+        {lat: 29.891552, lng: -97.936569},
+        {lat: 29.891132, lng: -97.937194},
+        {lat: 29.890999, lng: -97.936755},
+        {lat: 29.890686, lng: -97.936828},
+    ];
+
+    var sessomP5Lot = new google.maps.Polygon({
+        paths: sessomP5Coords,
+        strokeColor: purpleFill,
+        strokeOpacity: 0.8,
+        strokeWeight: 2,
+        fillColor: purpleFill,
+        fillOpacity: 0.5
+    });
+
+    sessomP5Lot.setMap(map);
+    //end Sessom Lot P5
 
 
 }
