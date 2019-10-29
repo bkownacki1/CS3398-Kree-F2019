@@ -65,13 +65,24 @@ var infowindow = new google.maps.InfoWindow({
 });
 
 var marker = new google.maps.Marker({
-  position:san_marcos,
+  position:{lat: 29.8900678, lng: -97.9456093},
   map: map,
-  title:'this better work'
-});
-marker.addListener('click',function(){
-  infowindow.open(map, marker);
-});
+  icon:"WebImages/TransparentMarker.png",
+  opacity:0,
+  anchorPosition: (30,30),
+  title:'transparentmarkerliveshere'
+});/*
+lbjGarage.addListener('click',function(){
+  infowindow.open(map);
+  //alert("info window opened");
+});*/
+var addListenerOnPolygon = function(lbjGarage){
+  google.maps.event.addListener(lbjGarage, 'click', function(event){
+    //alert(lbjGarage.indexID);
+    infowindow.open(map, marker)
+  });
+}
+addListenerOnPolygon(lbjGarage);
 
     /*lbjGarage.infowindow = new google.maps.InfoWindow(
       {content: "<b>words</b> " + "<br>" + "test..." + "</br>",
