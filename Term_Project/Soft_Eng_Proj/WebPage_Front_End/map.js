@@ -1,10 +1,8 @@
-var infowindow = new google.maps.InfoWindow({
-  size: new google.maps.Size(150,50)
-});
+//var opened_info = new google.maps.InfoWindow();
 
 function initMap() {
     //var geolib = google.maps.geometry.spherical;
-    var San_Marcos = {lat: 29.8884, lng: -97.9384};
+    var san_marcos = {lat: 29.8884, lng: -97.9384};
     /*var Lbj = {lat: 29.889280, lng: -97.944592};
     var Alkek = {lat: 29.888865, lng: -97.943075};*/
     var greyFill = '#454545';
@@ -13,12 +11,14 @@ function initMap() {
     var purpleFill = '#7b42c2';
     var pinkFill = '#ff45d0';
 
+    //var for map options to reduce clutter on map initialization
+    var mapOptions = {zoom: 15, center: san_marcos, mapTypeControl:true,
+      mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+      gestureHandling: 'greedy', navigationControl:true, mapTypeId: google.maps.MapTypeId.TERRAIN};
 
     // The map, centered at San Marcos
     var map = new google.maps.Map(
-        document.getElementById('google_map'), {zoom: 15, center: San_Marcos, mapTypeControl:true,
-          mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
-          gestureHandling: 'greedy', navigationControl:true, mapTypeId: google.maps.MapTypeId.ROADMAP});
+        document.getElementById("google_map"), mapOptions);
 
     //event Listener declared
     /*google.maps.event.addListener(map, 'click', function() {
@@ -48,8 +48,8 @@ function initMap() {
     ];
 
     var lbjGarage = new google.maps.Polygon({
-        map: map,
-        path: lbjGarageCoords,
+        //map: map,
+        paths: lbjGarageCoords,
         strokeColor: greyFill,
         strokeOpacity: 0.8,
         strokeWeight: 2,
@@ -58,14 +58,33 @@ function initMap() {
         name: "lbjGarage"
     });
 
-    //lbjGarage.setMap(map);
+lbjGarage.setMap(map);
 
-    google.maps.event.addListener(lbjGarage, 'click', function(event){
-      var contentString = "name" + this.name + "<br>" + "test..." + event.latLng.toUrlValue(6);
+var infowindow = new google.maps.InfoWindow({
+  content:'test words'
+});
+
+var marker = new google.maps.Marker({
+  position:san_marcos,
+  map: map,
+  title:'this better work'
+});
+marker.addListener('click',function(){
+  infowindow.open(map, marker);
+});
+
+    /*lbjGarage.infowindow = new google.maps.InfoWindow(
+      {content: "<b>words</b> " + "<br>" + "test..." + "</br>",
+    });
+    lbjGarage.infowindow.name = lbjGarage.name;*/
+    /*google.maps.event.addListener(lbjGarage, 'click', showInfo);
+
+    /*google.maps.event.addListener(lbjGarage, 'click', function(event){
+      var contentString = "words " + "<br>" + "test...";
         infowindow.setContent(contentString);
         infowindow.setPosition(event.latLng);
         infowindow.open(map);
-    });
+    });*/
 
     /*for (var i=0;i<lbjGarage.getPath().getLength();i++){
       bounds.extend(lbjGarage.getPath().getAt(i));
@@ -1292,13 +1311,24 @@ function initMap() {
 
     educationLot.setMap(map);
     //End educationLot
-}
+};
 
 // Funtion to Update Map to New Location Based on User Input.
 function alterMap() {
 
 }
 
+
+
+
+/*function showInfo(event){
+    opened_info.close();
+    if (opened_info.name != this.infowindow.name){
+      this.infowindow.setPosition(event.LatLng);
+      this.infowindow.open(map);
+      opened_info = this.infowindow;
+    }
+}
 
 /* lot prototype
 //LOTNAME Garage
