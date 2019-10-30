@@ -182,7 +182,7 @@ a.article:hover {
 /* Google Map API */
 #google_map {
     height: 400px; /* The height is 400 pixels */
-    width: 100%;   /* The width is the width of the web page */ 
+    width: 100%;   /* The width is the width of the web page */
 }
 
 /* Prompt paragraph elements beneath Google Map */
@@ -226,7 +226,7 @@ a.article:hover {
 
 .dynamic-list{
     display: none;
-    text-align: center; 
+    text-align: center;
 }
 
 br {
@@ -296,8 +296,66 @@ br {
     #sidebar.active {
         margin-left: 0;
     }
-    
+
     #sidebarCollapse span {
         display: none;
     }
 }
+
+/*----------------------------------------------------
+      txstTable
+----------------------------------------------------- */
+div.txstTable {
+  border: 1px solid #B4985A;
+  background-color: #B4985A;
+  width: 300px;
+  text-align: left;
+  border-collapse: collapse;
+}
+.divTable.txstTable .divTableCell, .divTable.txstTable .divTableHead {
+  border: 2px solid #501214;
+  padding: 3px 2px;
+}
+.divTable.txstTable .divTableBody .divTableCell {
+  font-size: 13px;
+  color: #191919;
+}
+.divTable.txstTable .divTableHeading {
+  background: #B4985A;
+  background: -moz-linear-gradient(top, #c7b283 0%, #bba26a 66%, #B4985A 100%);
+  background: -webkit-linear-gradient(top, #c7b283 0%, #bba26a 66%, #B4985A 100%);
+  background: linear-gradient(to bottom, #c7b283 0%, #bba26a 66%, #B4985A 100%);
+}
+.divTable.txstTable .divTableHeading .divTableHead {
+  font-size: 15px;
+  font-weight: bold;
+  color: #501214;
+  text-align: center;
+}
+.txstTable .tableFootStyle {
+  font-size: 14px;
+}
+.txstTable .tableFootStyle .links {
+	 text-align: right;
+}
+.txstTable .tableFootStyle .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.txstTable.outerTableFooter {
+  border-top: none;
+}
+.txstTable.outerTableFooter .tableFootStyle {
+  padding: 3px 5px;
+}
+/* DivTable.com */
+.divTable{ display: table; }
+.divTableRow { display: table-row; }
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTableHeading { display: table-header-group;}
+.divTableFoot { display: table-footer-group;}
+.divTableBody { display: table-row-group;}

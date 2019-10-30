@@ -61,21 +61,52 @@ function initMap() {
 lbjGarage.setMap(map);
 
 var infowindow = new google.maps.InfoWindow({
-  content:'test words'
+  content:'<div id="content">'+
+    '<div id="siteNotice">'+
+    '</div>'+
+    '<h1 id="firstHeading" class="firstHeading">LBJ Student Center Garage</h1>'+
+    '<div id="bodyContent">'+
+    '<p><b>LBJ Student Center</b> is a <b>Paid</b> parking garage. ' +
+    '<div class="divTable txstTable">'+
+    '<div class="divTableHeading">'+
+    '<div class="divTableRow">'+
+    '<div class="divTableHead">Permit/Parking Type</div>' +
+    '<div class="divTableHead">Spaces Available</div>' +
+    '</div>'+
+    '</div>'+
+    '<div class="divTableBody">'+
+    '<div class="divTableRow">'+
+    '<div class="divTableCell">Restricted (Red)</div><div class="divTableCell">0</div></div>'+
+    '<div class="divTableRow">'+
+    '<div class="divTableCell">Residence (Green)</div><div class="divTableCell">0</div></div>'+
+    '<div class="divTableRow">'+
+    '<div class="divTableCell">Commuter (Purple)</div><div class="divTableCell">0</div></div>'+
+    '<div class="divTableRow">'+
+    '<div class="divTableCell">Visitor (Paid)</div><div class="divTableCell">502</div></div>'+
+    '<div class="divTableRow">'+
+    '<div class="divTableCell">Carpool (Pink)</div><div class="divTableCell">0</div></div>'+
+    '<div class="divTableRow">'+
+    '<div class="divTableCell">Accessible</div><div class="divTableCell">18</div></div>'+
+    '<div class="divTableRow">'+
+    '<div class="divTableCell">Reserved</div><div class="divTableCell">6</div></div>'+
+    '<div class="divTableRow">'+
+    '<div class="divTableCell">Motorcycle</div><div class="divTableCell">0</div></div>'+
+    '</div>',
+    maxWidth: 500
 });
 
+var icon = {
+    url: "/WebImages/TransparentMarker.png",
+    scaledSize: new google.maps.Size(1,1) // scaled size down to 1px x 1px
+};
 var marker = new google.maps.Marker({
-  position:{lat: 29.8900678, lng: -97.9456093},
+  position:{lat: 29.8893200, lng: -97.9452287},
   map: map,
-  icon:"WebImages/TransparentMarker.png",
+  icon:icon,
   opacity:0,
-  anchorPosition: (30,30),
   title:'transparentmarkerliveshere'
-});/*
-lbjGarage.addListener('click',function(){
-  infowindow.open(map);
-  //alert("info window opened");
-});*/
+});
+
 var addListenerOnPolygon = function(lbjGarage){
   google.maps.event.addListener(lbjGarage, 'click', function(event){
     //alert(lbjGarage.indexID);
@@ -84,22 +115,6 @@ var addListenerOnPolygon = function(lbjGarage){
 }
 addListenerOnPolygon(lbjGarage);
 
-    /*lbjGarage.infowindow = new google.maps.InfoWindow(
-      {content: "<b>words</b> " + "<br>" + "test..." + "</br>",
-    });
-    lbjGarage.infowindow.name = lbjGarage.name;*/
-    /*google.maps.event.addListener(lbjGarage, 'click', showInfo);
-
-    /*google.maps.event.addListener(lbjGarage, 'click', function(event){
-      var contentString = "words " + "<br>" + "test...";
-        infowindow.setContent(contentString);
-        infowindow.setPosition(event.latLng);
-        infowindow.open(map);
-    });*/
-
-    /*for (var i=0;i<lbjGarage.getPath().getLength();i++){
-      bounds.extend(lbjGarage.getPath().getAt(i));
-    }*/
 /*'<div id="content">'+
   '<div id="siteNotice">'+
   '</div>'+
@@ -121,13 +136,7 @@ addListenerOnPolygon(lbjGarage);
   '</div>'+
   '</div>'*/
 
-
-
-  /*lbjGarage.addListener('click'.function()){
-    infowindow.close(map, lbjGarage)
-  }*/
-
-    //End LBJ Garage
+  //End LBJ Garage
 
     //Pleasant Street Garage
     var pleasantStreetGarageCoords = [
