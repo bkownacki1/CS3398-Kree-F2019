@@ -1,7 +1,5 @@
-//var opened_info = new google.maps.InfoWindow();
-
 function initMap() {
-    //var geolib = google.maps.geometry.spherical;
+
     var san_marcos = {lat: 29.8884, lng: -97.9384};
     /*var Lbj = {lat: 29.889280, lng: -97.944592};
     var Alkek = {lat: 29.888865, lng: -97.943075};*/
@@ -19,13 +17,6 @@ function initMap() {
     // The map, centered at San Marcos
     var map = new google.maps.Map(
         document.getElementById("google_map"), mapOptions);
-
-    //event Listener declared
-    /*google.maps.event.addListener(map, 'click', function() {
-      infowindow.close();
-    });
-    bounds = new google.maps.LatLngBounds();*/
-
 
     // Markers, positioned in San Marcos. Commented out because they clutter the screen with all the lots
     //var sanMarcosMarker = new google.maps.Marker({position: San_Marcos, map: map});
@@ -64,7 +55,7 @@ var infowindow = new google.maps.InfoWindow({
   content:'<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h1 id="firstHeading" class="firstHeading">LBJ Student Center Garage</h1>'+
+    '<h3 id="firstHeading" class="firstHeading">LBJ Student Center Garage</h3>'+
     '<div id="bodyContent">'+
     '<p><b>LBJ Student Center</b> is a <b>Paid</b> parking garage. ' +
     '<div class="divTable txstTable">'+
@@ -92,7 +83,7 @@ var infowindow = new google.maps.InfoWindow({
     '<div class="divTableRow">'+
     '<div class="divTableCell">Motorcycle</div><div class="divTableCell">0</div></div>'+
     '</div>',
-    maxWidth: 500
+    maxWidth: 500,
 });
 
 var icon = {
@@ -100,7 +91,7 @@ var icon = {
     scaledSize: new google.maps.Size(1,1) // scaled size down to 1px x 1px
 };
 var marker = new google.maps.Marker({
-  position:{lat: 29.8893200, lng: -97.9452287},
+  position:{lat: 29.889629, lng: -97.945427},
   map: map,
   icon:icon,
   opacity:0,
@@ -114,27 +105,6 @@ var addListenerOnPolygon = function(lbjGarage){
   });
 }
 addListenerOnPolygon(lbjGarage);
-
-/*'<div id="content">'+
-  '<div id="siteNotice">'+
-  '</div>'+
-  '<h1 id="firstHeading" class="firstHeading">Uluru</h1>'+
-  '<div id="bodyContent">'+
-  '<p><b>Uluru</b>, also referred to as <b>Ayers Rock</b>, is a large ' +
-  'sandstone rock formation in the southern part of the '+
-  'Northern Territory, central Australia. It lies 335&#160;km (208&#160;mi) '+
-  'south west of the nearest large town, Alice Springs; 450&#160;km '+
-  '(280&#160;mi) by road. Kata Tjuta and Uluru are the two major '+
-  'features of the Uluru - Kata Tjuta National Park. Uluru is '+
-  'sacred to the Pitjantjatjara and Yankunytjatjara, the '+
-  'Aboriginal people of the area. It has many springs, waterholes, '+
-  'rock caves and ancient paintings. Uluru is listed as a World '+
-  'Heritage Site.</p>'+
-  '<p>Attribution: Uluru, <a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
-  'https://en.wikipedia.org/w/index.php?title=Uluru</a> '+
-  '(last visited June 22, 2009).</p>'+
-  '</div>'+
-  '</div>'*/
 
   //End LBJ Garage
 
