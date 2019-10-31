@@ -158,8 +158,10 @@
             </div>
         </div>
         <br>
+        <!--
         <p class="mapPrompt"><b>Make A Selection In the Map Above</b></p>
         <p class="mapPrompt"><b>Dynamic HTML Will Be Inserted Here</b></p>
+        -->
 
         <!-- Button Toolbar for Polygons on Map -->
         <div class="row">
@@ -167,8 +169,13 @@
               <div class="btn-roolbar btn-block" role="group" aria-label="">
 
                     <!-- Submit Button -->
-                    <button type="button" class="btn btn-secondary btn-block" id="btn-strahan">Strahan-Coliseum-L</button>
-
+                    <div class="dropdown">
+                        <button type="button" class="btn btn-secondary dropdown-toggle btn-block" id="btn-strahan">Strahan-Coliseum-L</button>
+                    </div>
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item">Test</a>
+                      </div>
+                    
                     <button type="button" class="btn btn-secondary btn-block" id="btn-mathews">Mathews-G</button>
 
                     <button type="button" class="btn btn-secondary btn-block" id="btn-pleasant">Pleasant-G</button>
@@ -176,10 +183,10 @@
                     <button type="button" class="btn btn-secondary btn-block" id="btn-lbj">LBJ-G</button>
               </div>
             </div>
+            <!--
             <div class="col-md-4 col-centered">
                <div class="btn-roolbar btn-block" role="group" aria-label="">
 
-                    <!-- Submit Button -->
                     <button type="button" class="btn btn-secondary btn-block" id="btn-strahan">Strahan-L</button>
 
                     <button type="button" class="btn btn-secondary btn-block" id="btn-mathews">Mathews-G</button>
@@ -189,6 +196,7 @@
                     <button type="button" class="btn btn-secondary btn-block" id="btn-lbj">LBJ-G</button>
               </div>
           </div>
+          -->
 
         </div>
         <!-- End Button ToolBar -->

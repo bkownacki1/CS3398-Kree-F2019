@@ -59,7 +59,7 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #800000;
+    background: #501214;
     color: #fff;
     transition: all 0.3s;
 }
@@ -70,7 +70,7 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #800000;
+    background: #501214;
     line-height: 20px;
 }
 
@@ -91,13 +91,13 @@ a:focus {
 
 #sidebar ul li a:hover {
     color: #000000;
-    background: #AA6C39;
+    background: #B4985A;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #800000;
+    background: #501214;
 }
 
 a[data-toggle="collapse"] {
@@ -114,19 +114,19 @@ a[data-toggle="collapse"] {
 
 /*Override Button Info Class to Match TXstate Colors */
 .btn-info{
-    background-color: #AA6C39;
+    background-color: #B4985A;
     color: #000000;
 }
 
 .btn-info:hover{
     background-color: #000000;
-    color: #AA6C39;
+    color: #B4985A;
 }
 
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #800000;
+    background: #501214;
 }
 
 ul.CTAs {
@@ -276,7 +276,7 @@ br {
 #footer_wrapper {
   margin: 0;
   padding: 0;
-  background-color: #AA6C39;
+  background-color: #B4985A;
   height: 125px;
   width: 100%;
 }
