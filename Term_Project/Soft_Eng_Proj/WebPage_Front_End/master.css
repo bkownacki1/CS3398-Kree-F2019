@@ -182,7 +182,7 @@ a.article:hover {
 /* Google Map API */
 #google_map {
     height: 500px; /* The height is 400 pixels */
-    width: 125%;   /* The width is the width of the web page */
+    width: 100%;   /* The width is the width of the web page */
 }
 
 /* Prompt paragraph elements beneath Google Map */
