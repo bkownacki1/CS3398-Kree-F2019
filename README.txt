@@ -246,6 +246,8 @@ Retrospective:
           David:
           
           Jesse:
+	    * Our team got a good amount of work done this sprint.
+	    * The communication is improving.
           
           Ben:
           
@@ -262,6 +264,7 @@ Retrospective:
             David:
             
             Jesse:
+	        * Communication can still improve and outside issues dampened our ability to finish tasks quicker.
             
             Ben:
             
@@ -280,5 +283,6 @@ Retrospective:
             David:
             
             Jesse:
+	        * Finish tasks and try to keep up with the group.
             
             Ben:
