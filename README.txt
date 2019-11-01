@@ -217,6 +217,21 @@ Front End:
         : location: /Term_Project/Soft_Engineering_Project/index.html, master.css, master.js
 
 Shelby Status:
+Database:
+    - Database E/R model and outline has been completed.
+    - DBMS selected to be MariaDB and the database is in the first stages of implementation.
+    - It will be hosted on a Rasberry Pi; Setting up the Raspberry Pi to use MariaDB efficiently
+      took longer than anticipated due to abrupt changes to MySQL after Oracle made MySQL access
+      difficult to open source repositories. Initially, we were going to use MySQL paired with
+      Workbench, but Oracle made the installation process on the Pi much more difficult.
+    - All tables for the database have been normalized.
+    - Researched possible integration tools between html and database. Most likely will be using
+    AJAX.
+    
+    Artifacts:
+        - Foundation of database created and documented.
+        - Created a few (incomplete) tables in the database.
+        : location: /Term_Project/Soft_Engineering_Project/Database_Outline
 
 Ben Status:
 
