@@ -201,9 +201,84 @@ What Can We do to Improve?
       - I need to spend more time working on this project than worrying about work and other classes. I also feel that i need to communicate better with my classmates to understand best where i can help out.
   
 
+_______________________________
+Project Status 10-31-2019
 
-(1 pts - Team) One or more team bullets
-(5pts – Team) One or more team bullets
-(5 pts – Individual) One bullet per team member with specific,
-measurable improvement action described
- -3 if I (or the graders) can't figure out what the improvement action is and how you expect to measure it.
+Sam Pugh Status:
+Front End: 
+    - Front End of Webpage is nearing completion and has all pieces. 
+    - Needs Addtional styling for drop down menus, JS integration can use some touching up. 
+    - On click methods need to implemented for most drop down elements.
+    - Color Scheme is built
+    - Will finish these and integrate with JS back end API for database in next sprint.
+    
+    Artifacts:
+        - Updates to index.html
+        : location: /Term_Project/Soft_Engineering_Project/index.html, master.css, master.js
+
+Shelby Status:
+
+Ben Status:
+
+Jesse Status:
+
+David Status:
+
+Retrospective:
+    Team: 
+        * Communication on Projects continues to suffer a little bit. -> Sam
+        
+
+    Sam Pugh:
+        o What Went Well or maybe not?
+          Team: 
+            * Team Illness has been a major time issue with finishing the assingments in the alloted time. 
+            * Team Communication has been much better in this sprint. 
+            * Timeline and tasks were completed in a much more timely mannor this time around.
+        
+          Sam:
+            * Dealing With Constant eye problems has really taken away to much time from    project.
+            * Attempting to make up over the weekend.
+            * Everything else has been implemented quick and efficiently such as the drop down menu's and dynamic HTML integration for the parking lists.
+        
+          Shelby:
+          
+          David:
+          
+          Jesse:
+          
+          Ben:
+          
+        
+        What Might We Do Better?
+            Team:
+                * Prioritizing task and underestimating time needed for individual tasks such as database integration. Some tasks are taking a long time and have sub tasks that are causing issues. 
+                
+            Sam: 
+                * Communication, following up with team and not getting sick as often.
+                
+            Shelby:
+            
+            David:
+            
+            Jesse:
+            
+            Ben:
+            
+            
+        What Can We Do to Improve?
+        
+            Team:
+                * Halp: -> Sam
+        
+            Sam:
+                * Finishing tasks in the guided timelines.
+                * Possibly taking time on lunch break as opposed to waiting until after work and getting to busy to do anything. 
+                
+            Shelby:
+            
+            David:
+            
+            Jesse:
+            
+            Ben:
