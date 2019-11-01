@@ -326,6 +326,7 @@ Retrospective:
                 * Possibly taking time on lunch break as opposed to waiting until after work and getting to busy to do anything. 
                 
             Shelby:
+                * Coordinating with team more to identify necessary technologies needed in order to prevent slowdowns.
             
             David:
 		* Communicate more with the team so that I am able to contribute more
