@@ -205,6 +205,7 @@ _______________________________
 
    Project Status 10-31-2019  
 _______________________________
+
 /*****************************/
 
 
@@ -242,7 +243,7 @@ Database:
 Ben Status:
 
 ------------------------------
-_
+
 Jesse Status:
 
 ------------------------------
@@ -261,7 +262,10 @@ Retrospective:
         
 
     Sam Pugh:
-        o What Went Well or maybe not?
+
+        /**************************/
+        What Went Well or maybe not?
+        /**************************/
           Team: 
             * Team Illness has been a major time issue with finishing the assingments in the alloted time. 
             * Team Communication has been much better in this sprint. 
@@ -286,8 +290,9 @@ Retrospective:
           
           Ben:
           
-        
+        /**********************/
         What Might We Do Better?
+        /**********************/
             Team:
                 * Prioritizing task and underestimating time needed for individual tasks such as database integration. Some tasks are taking a long time and have sub tasks that are causing issues. 
                 
@@ -295,6 +300,10 @@ Retrospective:
                 * Communication, following up with team and not getting sick as often.
                 
             Shelby:
+                * We could create scheduled weekly or bi-weekly Discord meeting to increase communication.
+                * A outline of the project so we can get a better understanding of what needs to be done and
+                  our project status overall.
+                * I need to communicate more frequently with the team.
             
             David:
 		* I need to communication more with the team.
@@ -306,9 +315,9 @@ Retrospective:
             
             Ben:
             
-            
+        /************************/    
         What Can We Do to Improve?
-        
+        /************************/
             Team:
                 * Halp: -> Sam
         
