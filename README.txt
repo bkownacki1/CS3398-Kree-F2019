@@ -278,6 +278,7 @@ Retrospective:
         /**************************/
         What Went Well or maybe not?
         /**************************/
+
           Team:
             * Team Illness has been a major time issue with finishing the assingments in the alloted time.
             * Team Communication has been much better in this sprint.
@@ -309,6 +310,7 @@ Retrospective:
         /**********************/
         What Might We Do Better?
         /**********************/
+
             Team:
                 * Prioritizing task and underestimating time needed for individual tasks such as database integration. Some tasks are taking a long time and have sub tasks that are causing issues.
 
@@ -336,6 +338,7 @@ Retrospective:
         /************************/
         What Can We Do to Improve?
         /************************/
+
             Team:
                 * Halp: -> Sam
 
