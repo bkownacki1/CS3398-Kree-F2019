@@ -207,7 +207,7 @@ Project Status 10-31-2019
 Sam Pugh Status:
 Front End: 
     - Front End of Webpage is nearing completion and has all pieces. 
-    - Needs Addtional styling for drop down menus, JS integration can use some touching up. 
+    - Needs Additional styling for drop down menus, JS integration can use some touching up. 
     - On click methods need to implemented for most drop down elements.
     - Color Scheme is built
     - Will finish these and integrate with JS back end API for database in next sprint.
@@ -223,6 +223,11 @@ Ben Status:
 Jesse Status:
 
 David Status:
+- Help Ben finish outlining all lots and garages.
+- As soon as I finish helping Ben with outlining the remaining lots and garages,
+  I will help Sam and Shelby with the database implementation and connection to node.js server.
+    Artifact:
+	- /Term_Project/Soft_Eng_Proj/WebPage_Front_End/map.js 
 
 Retrospective:
     Team: 
@@ -244,6 +249,7 @@ Retrospective:
           Shelby:
           
           David:
+            * Not being able to contribute as much as I could have.
           
           Jesse:
 	    * Our team got a good amount of work done this sprint.
@@ -262,6 +268,9 @@ Retrospective:
             Shelby:
             
             David:
+		* I need to communication more with the team.
+		* I can learn more about the database implementations.
+		* Start contributing more.
             
             Jesse:
 	        * Communication can still improve and outside issues dampened our ability to finish tasks quicker.
@@ -281,6 +290,7 @@ Retrospective:
             Shelby:
             
             David:
+		* Communicate more with the team so that I am able to contribute more
             
             Jesse:
 	        * Finish tasks and try to keep up with the group.
