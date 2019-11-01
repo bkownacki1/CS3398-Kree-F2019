@@ -340,7 +340,7 @@ Retrospective:
         /************************/
 
             Team:
-                * Halp: -> Sam
+                * Build better cohesion and stick to schedule.
 
             Sam:
                 * Finishing tasks in the guided timelines.
