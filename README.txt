@@ -200,9 +200,13 @@ What Can We do to Improve?
     Jesse: 
       - I need to spend more time working on this project than worrying about work and other classes. I also feel that i need to communicate better with my classmates to understand best where i can help out.
   
-
+/******************************/
 _______________________________
-Project Status 10-31-2019
+
+   Project Status 10-31-2019  
+_______________________________
+/*****************************/
+
 
 Sam Pugh Status:
 Front End: 
@@ -216,7 +220,8 @@ Front End:
         - Updates to index.html
         : location: /Term_Project/Soft_Engineering_Project/index.html, master.css, master.js
 
-Shelby Status:
+--------------------------------
+Shelby Jordan Status:
 Database:
     - Database E/R model and outline has been completed.
     - DBMS selected to be MariaDB and the database is in the first stages of implementation.
@@ -233,10 +238,14 @@ Database:
         - Created a few (incomplete) tables in the database.
         : location: /Term_Project/Soft_Engineering_Project/Database_Outline
 
+------------------------------
 Ben Status:
 
+------------------------------
+_
 Jesse Status:
 
+------------------------------
 David Status:
 - Help Ben finish outlining all lots and garages.
 - As soon as I finish helping Ben with outlining the remaining lots and garages,
@@ -247,6 +256,8 @@ David Status:
 Retrospective:
     Team: 
         * Communication on Projects continues to suffer a little bit. -> Sam
+        * Many team members contribute to communication via Slack at infrequent intervals
+          making it hard to coordinate related tasks.
         
 
     Sam Pugh:
@@ -262,6 +273,9 @@ Retrospective:
             * Everything else has been implemented quick and efficiently such as the drop down menu's and dynamic HTML integration for the parking lists.
         
           Shelby:
+            * Was set back due to the flu -> about a week of work behind anticipated progress.
+            * Plan on being on track by EOD Monday Nov.4
+            * The amount of communication between members increased and was beneficial to project.
           
           David:
             * Not being able to contribute as much as I could have.
