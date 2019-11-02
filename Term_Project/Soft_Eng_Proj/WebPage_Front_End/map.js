@@ -725,7 +725,7 @@ function initMap() {
 
         google.maps.event.addListener(polygon, 'click', (function(marker, i) {
              return function(){
-               infowindow.setContent(('<div id="content">'+
+               infowindow.setContent((//'<div id="content">'+ uncommenting this will cause the infowindow to be way too tall.
                                 '<div id="siteNotice">'+
                                 '</div>'+
                                 '<h3 id="firstHeading" class="firstHeading">' + polygonData[i][3] + '</h3>'+
@@ -755,7 +755,7 @@ function initMap() {
                                 '<div class="divTableCell"><font color="#ab0000">■</font>Reserved</div><div class="divTableCell">##DATABASE REFERENCE HERE##</div></div>'+
                                 '<div class="divTableRow">'+
                                 '<div class="divTableCell"><font color="orange">■</font>Motorcycle</div><div class="divTableCell">##DATABASE REFERENCE HERE##</div></div>'+
-                                '</div></div>') + "" + polygonData[i][5]);
+                                '</div></div><br>') + "" + polygonData[i][5]);
                infowindow.setOptions({maxWidth:500});
                infowindow.open(map, marker);
           }
