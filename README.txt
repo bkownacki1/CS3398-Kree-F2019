@@ -224,6 +224,7 @@ Jesse Status:
 
 David Status:
 
+
 Retrospective:
     Team: 
         * Communication on Projects continues to suffer a little bit. -> Sam
