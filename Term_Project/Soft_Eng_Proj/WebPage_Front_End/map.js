@@ -178,7 +178,7 @@ function initMap() {
         {lat: 29.8892828, lng: -97.9451853},
         {lat: 29.8893200, lng: -97.9452287},
         {lat: 29.8892872, lng: -97.9452661},
-        {lat: 29.8898217, lng: -97.9458899}], greyFill, greyFill, "LBJ Student Center Garage", lbjSubtitle, lbjBlurb],
+        {lat: 29.8898217, lng: -97.9458899}], greyFill, greyFill, "LBJ Student Center Garage", lbjSubtitle, lbjBlurb, 1000],
 
       [[{lat: 29.8901117, lng: -97.9411670},
         {lat: 29.8901606, lng: -97.9409888},
@@ -187,7 +187,7 @@ function initMap() {
         {lat: 29.8898840, lng: -97.9403461},
         {lat: 29.8897133, lng: -97.9409828},
         {lat: 29.8897619, lng: -97.9409969},
-        {lat: 29.8897386, lng: -97.9410669}], redFill, redFill, "Pleasant Street Garage", pleasantSubtitle, pleasantBlurb],
+        {lat: 29.8897386, lng: -97.9410669}], redFill, redFill, "Pleasant Street Garage", pleasantSubtitle, pleasantBlurb, 1001],
 
       [[{lat: 29.888409, lng: -97.945534},
         {lat: 29.888222, lng: -97.945216},
@@ -199,13 +199,13 @@ function initMap() {
         {lat: 29.888423, lng: -97.943363},
         {lat: 29.888473, lng: -97.943365},
         {lat: 29.888945, lng: -97.944068},
-        {lat: 29.888808, lng: -97.945232}], redFill, redFill, "Alkek Garage", alkekSubtitle, alkekBlurb],
+        {lat: 29.888808, lng: -97.945232}], redFill, redFill, "Alkek Garage", alkekSubtitle, alkekBlurb, 1002],
 
       [[{lat: 29.8858812, lng: -97.9484560},
         {lat: 29.8855960, lng: -97.9482378},
         {lat: 29.8860449, lng: -97.9474318},
         {lat: 29.8863217, lng: -97.9476402},
-        {lat: 29.8858812, lng: -97.9484560}], greenFill, greenFill, "Academy Street Garage", academySubtitle, academyBlurb],
+        {lat: 29.8858812, lng: -97.9484560}], greenFill, greenFill, "Academy Street Garage", academySubtitle, academyBlurb, 1003],
 
       [[{lat: 29.8872721, lng: -97.9428673},
         {lat: 29.8873380, lng: -97.9424180},
@@ -217,33 +217,33 @@ function initMap() {
         {lat: 29.8868095, lng: -97.9423083},
         {lat: 29.8867994, lng: -97.9423774},
         {lat: 29.8867468, lng: -97.9423671},
-        {lat: 29.8866901, lng: -97.9427536}], greenFill, greenFill, "Tower Garage", towerGarageSubtitle, towerGarageBlurb],
+        {lat: 29.8866901, lng: -97.9427536}], greenFill, greenFill, "Tower Garage", towerGarageSubtitle, towerGarageBlurb, 1004],
 
       [[{lat: 29.8860084, lng: -97.9401804},
         {lat: 29.8861121, lng: -97.9393341},
         {lat: 29.8857419, lng: -97.9392737},
         {lat: 29.8856381, lng: -97.9401199},
-        {lat: 29.8860084, lng: -97.9401804}], greyFill, greyFill, "Edward Gary Street Garage", egsGarageSubtitle, egsGarageBlurb],
+        {lat: 29.8860084, lng: -97.9401804}], greyFill, greyFill, "Edward Gary Street Garage", egsGarageSubtitle, egsGarageBlurb, 1005],
 
       [[{lat: 29.8908337, lng: -97.9442989},
         {lat: 29.8914284, lng: -97.9436525},
         {lat: 29.8910673, lng: -97.9432105},
-        {lat: 29.8904751, lng: -97.9438572}], redFill, greenFill, "Matthews Street Garage", matthewsStreetGarageSubtitle, matthewsStreetGarageBlurb],
+        {lat: 29.8904751, lng: -97.9438572}], redFill, greenFill, "Matthews Street Garage", matthewsStreetGarageSubtitle, matthewsStreetGarageBlurb, 1006],
 
       [[{lat: 29.8876366, lng: -97.9444842},
         {lat: 29.8872725, lng: -97.9444201},
         {lat: 29.8874029, lng: -97.9434346},
-        {lat: 29.8877671, lng: -97.9434987}], redFill, greenFill, "Woods Street Garage", woodsStreetGarageSubtitle, woodsStreetGarageBlurb],
+        {lat: 29.8877671, lng: -97.9434987}], redFill, greenFill, "Woods Street Garage", woodsStreetGarageSubtitle, woodsStreetGarageBlurb, 1007],
 
       [[{lat: 29.886860, lng: -97.944279},
         {lat: 29.886958, lng: -97.943549},
         {lat: 29.886630, lng: -97.943495},
-        {lat: 29.886524, lng: -97.944205}], greenFill, greenFill, "San Jacinto Garage", sanJacintoGarageSubtitle, sanJacintoGarageBlurb],
+        {lat: 29.886524, lng: -97.944205}], greenFill, greenFill, "San Jacinto Garage", sanJacintoGarageSubtitle, sanJacintoGarageBlurb, 1008],
 
       [[{lat: 29.893008, lng: -97.930034},
         {lat: 29.892953, lng: -97.929945},
         {lat: 29.892681, lng: -97.930184},
-        {lat: 29.892739, lng: -97.930275}], purpleFill, purpleFill, "Meadows Center Lot", meadowsCenSubtitle, meadowsCenBlurb],
+        {lat: 29.892739, lng: -97.930275}], purpleFill, purpleFill, "Meadows Center Lot", meadowsCenSubtitle, meadowsCenBlurb, 1009],
 
       [[{lat: 29.889658, lng: -97.925425},
         {lat: 29.889686, lng: -97.925470},
@@ -268,7 +268,7 @@ function initMap() {
         {lat: 29.889879, lng: -97.925626},
         {lat: 29.889797, lng: -97.925510},
         {lat: 29.889833, lng: -97.925484},
-        {lat: 29.889736, lng: -97.925348}], redFill, redFill, "Endzone Complex Lot", endzoneLotSubtitle, endzoneLotBlurb],
+        {lat: 29.889736, lng: -97.925348}], redFill, redFill, "Endzone Complex Lot", endzoneLotSubtitle, endzoneLotBlurb, 1010],
 
       [[{lat: 29.887938, lng: -97.927281},
         {lat: 29.889521, lng: -97.925548},
@@ -290,7 +290,7 @@ function initMap() {
         {lat: 29.890458, lng: -97.927280},
         {lat: 29.890377, lng: -97.927326},
         {lat: 29.889809, lng: -97.927450},
-        {lat: 29.888996, lng: -97.927486}], purpleFill, purpleFill, "Bobcat Stadium West", bobcatWestSubtitle, bobcatWestBlurb],
+        {lat: 29.888996, lng: -97.927486}], purpleFill, purpleFill, "Bobcat Stadium West", bobcatWestSubtitle, bobcatWestBlurb, 1011],
 
       [[{lat: 29.890528, lng: -97.924256},
         {lat: 29.891886, lng: -97.922763},
@@ -301,24 +301,24 @@ function initMap() {
         {lat: 29.890888, lng: -97.924487},
         {lat: 29.890790, lng: -97.924460},
         {lat: 29.890698, lng: -97.924411},
-        {lat: 29.890641, lng: -97.924365}], purpleFill, purpleFill, "Bobcat Stadium East", bobcatEastSubtitle, bobcatEastBlurb],
+        {lat: 29.890641, lng: -97.924365}], purpleFill, purpleFill, "Bobcat Stadium East", bobcatEastSubtitle, bobcatEastBlurb, 1012],
 
       [[{lat: 29.886418, lng: -97.932741},
         {lat: 29.886976, lng: -97.933439},
         {lat: 29.887165, lng: -97.933240},
-        {lat: 29.886610, lng: -97.932542}], redFill, redFill, "Jowers Lot", jowersLotSubtitle, jowersLotBlurb],
+        {lat: 29.886610, lng: -97.932542}], redFill, redFill, "Jowers Lot", jowersLotSubtitle, jowersLotBlurb, 1013],
 
       [[{lat: 29.888500, lng: -97.930564},
         {lat: 29.888413, lng: -97.930442},
         {lat: 29.887079, lng: -97.931884},
         {lat: 29.887114, lng: -97.931930},
         {lat: 29.887344, lng: -97.931687},
-        {lat: 29.887394, lng: -97.931744}], purpleFill, purpleFill, "Jowers Access Commuter Street Parking", jowersAccessComSubtitle, jowersAccessComBlurb],
+        {lat: 29.887394, lng: -97.931744}], purpleFill, purpleFill, "Jowers Access Commuter Street Parking", jowersAccessComSubtitle, jowersAccessComBlurb, 1014],
 
       [[{lat: 29.887114, lng: -97.931930},
         {lat: 29.887079, lng: -97.931884},
         {lat: 29.886303, lng: -97.932716},
-        {lat: 29.886340, lng: -97.932766}], redFill, redFill, "Jowers Access Red/Restricted Street Parking", jowersAccessRestSubtitle, jowersAccessRestBlurb],
+        {lat: 29.886340, lng: -97.932766}], redFill, redFill, "Jowers Access Red/Restricted Street Parking", jowersAccessRestSubtitle, jowersAccessRestBlurb, 1015],
 
       [[{lat: 29.888958, lng: -97.933600},
         {lat: 29.889008, lng: -97.933417},
@@ -326,7 +326,7 @@ function initMap() {
         {lat: 29.888771, lng: -97.933323},
         {lat: 29.888676, lng: -97.933406},
         {lat: 29.888680, lng: -97.933543},
-        {lat: 29.888768, lng: -97.933583}], redFill, redFill, "Strahan Reserve Lot", strahanReserveSubtitle, strahanReserveBlurb],
+        {lat: 29.888768, lng: -97.933583}], redFill, redFill, "Strahan Reserve Lot", strahanReserveSubtitle, strahanReserveBlurb, 1016],
 
       [[{lat: 29.889161, lng: -97.933318},
         {lat: 29.889721, lng: -97.933495},
@@ -336,7 +336,7 @@ function initMap() {
         {lat: 29.890155, lng: -97.932642},
         {lat: 29.890020, lng: -97.932647},
         {lat: 29.889834, lng: -97.933218},
-        {lat: 29.889202, lng: -97.933040}], purpleFill, purpleFill, "Sewell North Lot", sewellNorthSubtitle, sewellNorthBlurb],
+        {lat: 29.889202, lng: -97.933040}], purpleFill, purpleFill, "Sewell North Lot", sewellNorthSubtitle, sewellNorthBlurb, 1017],
 
       [[{lat: 29.890668, lng: -97.938149},
         {lat: 29.890695, lng: -97.938158},
@@ -352,14 +352,14 @@ function initMap() {
         {lat: 29.890701, lng: -97.937848},
         {lat: 29.890574, lng: -97.937882},
         {lat: 29.890642, lng: -97.938049},
-        {lat: 29.890632, lng: -97.938082}], redFill, redFill, "Ag./Sessom Lot", agSessSubtitle, agSessBlurb],
+        {lat: 29.890632, lng: -97.938082}], redFill, redFill, "Ag./Sessom Lot", agSessSubtitle, agSessBlurb, 1018],
 
       [[{lat: 29.890686, lng: -97.936828},
         {lat: 29.891248, lng: -97.936703},
         {lat: 29.891229, lng: -97.936574},
         {lat: 29.890746, lng: -97.936667},
         {lat: 29.890759, lng: -97.936740},
-        {lat: 29.890696, lng: -97.936755}], pinkFill, pinkFill, "Sessom Lot (Carpool)", sessomCarpoolSubtitle, sessomCarpoolBlurb],
+        {lat: 29.890696, lng: -97.936755}], pinkFill, pinkFill, "Sessom Lot (Carpool)", sessomCarpoolSubtitle, sessomCarpoolBlurb, 1019],
 
       [[{lat: 29.8915272, lng: -97.9272164},
         {lat: 29.8900493, lng: -97.9303774},
@@ -367,7 +367,7 @@ function initMap() {
         {lat: 29.8896459, lng: -97.9303832},
         {lat: 29.8899651, lng: -97.9305897},
         {lat: 29.8895878, lng: -97.9314066},
-        {lat: 29.8886130, lng: -97.9303165}], purpleFill, purpleFill, "Coliseum Lot", coliseumLotSubtitle, coliseumLotBlurb],
+        {lat: 29.8886130, lng: -97.9303165}], purpleFill, purpleFill, "Coliseum Lot", coliseumLotSubtitle, coliseumLotBlurb, 1020],
 
       [[{lat: 29.8877768, lng: -97.9314838},
         {lat: 29.8878112, lng: -97.9315238},
@@ -376,7 +376,7 @@ function initMap() {
         {lat: 29.8880186, lng: -97.9317716},
         {lat: 29.8880470, lng: -97.9318046},
         {lat: 29.8886265, lng: -97.9311376},
-        {lat: 29.8883667, lng: -97.9308240}], purpleFill, purpleFill, "Strahan Lot", strahanSubtitle, strahanBlurb],
+        {lat: 29.8883667, lng: -97.9308240}], purpleFill, purpleFill, "Strahan Lot", strahanSubtitle, strahanBlurb, 1021],
 
       [[{lat: 29.8886265, lng: -97.9311376},
         {lat: 29.8883667, lng: -97.9308240},
@@ -385,33 +385,33 @@ function initMap() {
         {lat: 29.8886162, lng: -97.9306117},
         {lat: 29.8888239, lng: -97.9308624},
         {lat: 29.8887996, lng: -97.9308891},
-        {lat: 29.8888246, lng: -97.9309193}], redFill, redFill, "Strahan Expansion Lot", strahanExpansionSubtitle, strahanExpansionBlurb],
+        {lat: 29.8888246, lng: -97.9309193}], redFill, redFill, "Strahan Expansion Lot", strahanExpansionSubtitle, strahanExpansionBlurb, 1022],
 
       [[{lat: 29.890242, lng: -97.952948},
         {lat: 29.890929, lng: -97.953720},
         {lat: 29.891269, lng: -97.953310},
-        {lat: 29.890610, lng: -97.952505}], greenFill, purpleFill, "Speck Street Garage", speckGarageSubtitle, speckGarageBlurb],
+        {lat: 29.890610, lng: -97.952505}], greenFill, purpleFill, "Speck Street Garage", speckGarageSubtitle, speckGarageBlurb, 1023],
 
       [[{lat: 29.889996, lng: -97.937737},
         {lat: 29.889530, lng: -97.937551},
         {lat: 29.890028, lng: -97.937063},
-        {lat: 29.890156, lng: -97.937115}], redFill, redFill, "State Street Lot", stateLotSubtitle, stateLotBlurb],
+        {lat: 29.890156, lng: -97.937115}], redFill, redFill, "State Street Lot", stateLotSubtitle, stateLotBlurb, 1024],
 
       [[{lat: 29.890581, lng: -97.937429},
         {lat: 29.890297, lng: -97.937099},
         {lat: 29.890267, lng: -97.937289},
         {lat: 29.890422, lng: -97.937346},
-        {lat: 29.890437, lng: -97.937423}], redFill, redFill, "Aqua Sports Lot", aquaLotSubtitle, aquaLotBlurb],
+        {lat: 29.890437, lng: -97.937423}], redFill, redFill, "Aqua Sports Lot", aquaLotSubtitle, aquaLotBlurb, 1025],
 
       [[{lat: 29.890328, lng: -97.936472},
         {lat: 29.890227, lng: -97.936164},
         {lat: 29.889188, lng: -97.937022},
-        {lat: 29.889347, lng: -97.937307}], redFill, redFill, "JCK/Sessom Lot", jckSessomLotSubtitle, jckSessomLotBlurb],
+        {lat: 29.889347, lng: -97.937307}], redFill, redFill, "JCK/Sessom Lot", jckSessomLotSubtitle, jckSessomLotBlurb, 1026],
 
       [[{lat: 29.888340, lng: -97.938129},
         {lat: 29.888407, lng: -97.938285},
         {lat: 29.888625, lng: -97.938023},
-        {lat: 29.888558, lng: -97.937918}], redFill, redFill, "JCK/Moon Lot", jckMoonLot1Subtitle, jckMoonLot1Blurb],
+        {lat: 29.888558, lng: -97.937918}], redFill, redFill, "JCK/Moon Lot", jckMoonLot1Subtitle, jckMoonLot1Blurb, 1027],
 
       [[{lat: 29.888032, lng: -97.938170},
         {lat: 29.887406, lng: -97.938122},
@@ -420,7 +420,7 @@ function initMap() {
         {lat: 29.888091, lng: -97.937653},
         {lat: 29.888121, lng: -97.937650},
         {lat: 29.888272, lng: -97.937489},
-        {lat: 29.888497, lng: -97.937833}], redFill, redFill, "JCK/Moon Lot", jckMoonLot2Subtitle, jckMoonLot2Blurb],
+        {lat: 29.888497, lng: -97.937833}], redFill, redFill, "JCK/Moon Lot", jckMoonLot2Subtitle, jckMoonLot2Blurb, 1028],
 
       [[{lat: 29.889843, lng: -97.935787},
         {lat: 29.889961, lng: -97.935865},
@@ -435,12 +435,12 @@ function initMap() {
         {lat: 29.889521, lng: -97.935455},
         {lat: 29.889653, lng: -97.935403},
         {lat: 29.889790, lng: -97.935414},
-        {lat: 29.889824, lng: -97.935612}], redFill, redFill, "Freeman Lot", freemanLotSubtitle, freemanLotBlurb],
+        {lat: 29.889824, lng: -97.935612}], redFill, redFill, "Freeman Lot", freemanLotSubtitle, freemanLotBlurb, 1029],
 
       [[{lat: 29.891108, lng: -97.937745},
         {lat: 29.891162, lng: -97.937941},
         {lat: 29.891056, lng: -97.937974},
-        {lat: 29.890999, lng: -97.937780}], redFill, redFill, "Physical Plant Lot", physPlantLotSubtitle, physPlantLotBlurb],
+        {lat: 29.890999, lng: -97.937780}], redFill, redFill, "Physical Plant Lot", physPlantLotSubtitle, physPlantLotBlurb, 1030],
 
       [[{lat: 29.890987, lng: -97.937563},
         {lat: 29.891167, lng: -97.937706},
@@ -457,7 +457,7 @@ function initMap() {
         {lat: 29.891470, lng: -97.937148},
         {lat: 29.891256, lng: -97.937465},
         {lat: 29.891173, lng: -97.937610},
-        {lat: 29.891017, lng: -97.937500}], redFill, redFill, "Sessom Lot (Red/Restricted)", sessomR2LotSubtitle, sessomR2LotBlurb],
+        {lat: 29.891017, lng: -97.937500}], redFill, redFill, "Sessom Lot (Red/Restricted)", sessomR2LotSubtitle, sessomR2LotBlurb, 1031],
 
       [[{lat: 29.890910, lng: -97.937544},
         {lat: 29.890991, lng: -97.937483},
@@ -468,7 +468,7 @@ function initMap() {
         {lat: 29.891552, lng: -97.936569},
         {lat: 29.891132, lng: -97.937194},
         {lat: 29.890999, lng: -97.936755},
-        {lat: 29.890686, lng: -97.936828}], purpleFill, purpleFill, "Sessom Lot (Commuter)", sessomP5LotSubtitle, sessomP5LotBlurb],
+        {lat: 29.890686, lng: -97.936828}], purpleFill, purpleFill, "Sessom Lot (Commuter)", sessomP5LotSubtitle, sessomP5LotBlurb, 1032],
 
       [[{lat: 29.894064, lng: -97.929074},
         {lat: 29.893955, lng: -97.929000},
@@ -483,7 +483,7 @@ function initMap() {
         {lat: 29.894056, lng: -97.929398},
         {lat: 29.893861, lng: -97.929220},
         {lat: 29.893920, lng: -97.929128},
-        {lat: 29.893993, lng: -97.929182}], redFill, redFill, "Meadows Center Lot", meadowsRestSubtitle, meadowsRestBlurb],
+        {lat: 29.893993, lng: -97.929182}], redFill, redFill, "Meadows Center Lot", meadowsRestSubtitle, meadowsRestBlurb, 1033],
 
       [[{lat: 29.886226, lng: -97.949018},
         {lat: 29.886188, lng: -97.949064},
@@ -522,7 +522,7 @@ function initMap() {
         {lat: 29.886099, lng: -97.948611},
         {lat: 29.886029, lng: -97.948688},
         {lat: 29.886111, lng: -97.948800},
-        {lat: 29.886078, lng: -97.948841}], greenFill, greenFill, "Llano Drive Lot", llanoDrSubtitle, llanoDrBlurb],
+        {lat: 29.886078, lng: -97.948841}], greenFill, greenFill, "Llano Drive Lot", llanoDrSubtitle, llanoDrBlurb, 1034],
 
       [[  {lat: 29.886920, lng: -97.949460},
         {lat: 29.887143, lng: -97.949731},
@@ -530,7 +530,7 @@ function initMap() {
         {lat: 29.886918, lng: -97.949819},
         {lat: 29.886841, lng: -97.949730},
         {lat: 29.886781, lng: -97.949614},
-        {lat: 29.886835, lng: -97.949557}], redFill, redFill, "CDC Lot", cdcLotSubtitle, cdcLotBlurb],
+        {lat: 29.886835, lng: -97.949557}], redFill, redFill, "CDC Lot", cdcLotSubtitle, cdcLotBlurb, 1035],
 
       [[{lat: 29.885996, lng: -97.947283},
         {lat: 29.885973, lng: -97.947325},
@@ -548,7 +548,7 @@ function initMap() {
         {lat: 29.885918, lng: -97.947647},
         {lat: 29.886019, lng: -97.947467},
         {lat: 29.885989, lng: -97.947441},
-        {lat: 29.886056, lng: -97.947323}], greenFill, greenFill, "Academy Street Lot", academyStreetLotSubtitle, academyStreetLotBlurb],
+        {lat: 29.886056, lng: -97.947323}], greenFill, greenFill, "Academy Street Lot", academyStreetLotSubtitle, academyStreetLotBlurb, 1036],
 
       [[{lat: 29.887091, lng: -97.944380},
         {lat: 29.887215, lng: -97.943479},
@@ -557,7 +557,7 @@ function initMap() {
         {lat: 29.887054, lng: -97.943891},
         {lat: 29.887045, lng: -97.943959},
         {lat: 29.886996, lng: -97.943953},
-        {lat: 29.886934, lng: -97.944354}], greenFill, greenFill, "San Jacinto Lot", sanJacintoLotSubtitle, sanJacintoLotBlurb],
+        {lat: 29.886934, lng: -97.944354}], greenFill, greenFill, "San Jacinto Lot", sanJacintoLotSubtitle, sanJacintoLotBlurb, 1037],
 
       [[{lat: 29.888145, lng: -97.946062},
         {lat: 29.888346, lng: -97.945821},
@@ -595,7 +595,7 @@ function initMap() {
         {lat: 29.887748, lng: -97.946276},
         {lat: 29.887878, lng: -97.946049},
         {lat: 29.888060, lng: -97.946078},
-        {lat: 29.888109, lng: -97.946018}], redFill, redFill, "Science Lot", scienceLotSubtitle, scienceLotBlurb],
+        {lat: 29.888109, lng: -97.946018}], redFill, redFill, "Science Lot", scienceLotSubtitle, scienceLotBlurb, 1038],
 
       [[{lat: 	29.889889, lng: -97.948485},
         {lat: 	29.889703, lng:	-97.948310},
@@ -632,7 +632,7 @@ function initMap() {
         {lat: 	29.889621, lng: -97.948687},
         {lat: 	29.889640, lng: -97.948684},
         {lat: 	29.889661, lng: -97.948695},
-        {lat: 	29.889735, lng: -97.948764}], redFill, redFill, "Roy F. Mitte Lot", mitteLotSubtitle, mitteLotBlurb],
+        {lat: 	29.889735, lng: -97.948764}], redFill, redFill, "Roy F. Mitte Lot", mitteLotSubtitle, mitteLotBlurb, 1039],
 
       [[{lat:	29.889712, lng:	-97.949025},
         {lat:	29.889566, lng:	-97.948888},
@@ -645,7 +645,7 @@ function initMap() {
         {lat:	29.889393, lng:	-97.949459},
         {lat:	29.889349, lng:	-97.949408},
         {lat:	29.889386, lng:	-97.949347},
-        {lat:	29.889421, lng:	-97.949376}], redFill, redFill, "Family and Consumer Sciences Lot", fcsLotSubtitle, fcsLotBlurb],
+        {lat:	29.889421, lng:	-97.949376}], redFill, redFill, "Family and Consumer Sciences Lot", fcsLotSubtitle, fcsLotBlurb, 1040],
 
       [[{lat: 	29.889408		, lng: 	-97.946044	},
         {lat: 	29.889440		, lng: 	-97.946009	},
@@ -657,7 +657,7 @@ function initMap() {
         {lat: 	29.889496		, lng: 	-97.946354	},
         {lat: 	29.889349		, lng: 	-97.946189	},
         {lat: 	29.889361		, lng: 	-97.946175	},
-        {lat: 	29.889314		, lng: 	-97.946126	}], greenFill, greenFill, "College Inn Lot", collegeInnLotSubtitle, collegeInnLotBlurb],
+        {lat: 	29.889314		, lng: 	-97.946126	}], greenFill, greenFill, "College Inn Lot", collegeInnLotSubtitle, collegeInnLotBlurb, 1041],
 
       [[new google.maps.LatLng(29.887180,-97.938660), //these are formatted differently b/c I found a tool to make drawing polygons easier and this is the format it outputs in
         new google.maps.LatLng(29.887448,-97.938706),
@@ -685,7 +685,7 @@ function initMap() {
         new google.maps.LatLng(29.887282,-97.938376),
         new google.maps.LatLng(29.887269,-97.938347),
         new google.maps.LatLng(29.887277,-97.938304),
-        new google.maps.LatLng(29.887213,-97.938292)], redFill, redFill, "Education Lot", educationLotSubtitle, educationLotBlurb]
+        new google.maps.LatLng(29.887213,-97.938292)], redFill, redFill, "Education Lot", educationLotSubtitle, educationLotBlurb, 1042]
 ];
 
     var icon = {
@@ -750,7 +750,7 @@ function initMap() {
                                 '<div class="divTableRow">'+
                                 '<div class="divTableCell"><font color="#ff45d0">■</font>Carpool (Pink)</div><div class="divTableCell">##DATABASE REFERENCE HERE##</div></div>'+
                                 '<div class="divTableRow">'+
-                                '<div class="divTableCell"><font color="blue">■</font>Accessible</div><div class="divTableCell">##DATABASE REFERENCE HERE##</div></div>'+
+                                '<div class="divTableCell"><font color="blue">■</font>Disabled</div><div class="divTableCell">##DATABASE REFERENCE HERE##</div></div>'+
                                 '<div class="divTableRow">'+
                                 '<div class="divTableCell"><font color="#ab0000">■</font>Reserved</div><div class="divTableCell">##DATABASE REFERENCE HERE##</div></div>'+
                                 '<div class="divTableRow">'+
