@@ -238,6 +238,16 @@ br {
     display: block;
     margin: 5px;
 }
+
+.small_break{
+    display: block;
+    margin: 2px;
+}
+
+.btn-block{
+    padding: 0;
+    margin: 0;
+}
 /*------------------------------------------------------
  Button Design Here
 -----------------------------------------------------*/
