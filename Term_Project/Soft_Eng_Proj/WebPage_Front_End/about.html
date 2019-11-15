@@ -33,11 +33,11 @@
                 <h3>Main Menu</h3>
             </div>
 
-            <ul class="list-unstyled components">
-                <p><b>Useful Parking Links</b></p>
+                       <ul class="list-unstyled components">
+                <p id="navbar_title"><b>Useful Parking Links</b></p>
 
                 <!-- Home Page Link -->
-                <li class="active">
+                <li>
                     <a href="./index.html">Home</a>
                 </li>
 
@@ -54,12 +54,20 @@
                             <a href="https://map.concept3d.com/?id=308#!ct/28133,19953,18453,0">Interactive Texas State Map</a>
                         </li>
                         <li>
-                            <a href="#">Page 3</a>
+                            <a href="https://www.google.com/maps/d/viewer?ie=UTF8&t=m&oe=UTF8&msa=0&mid=11z3sfrkqS6Jion116wX3NGhkFwo&ll=29.882485812969296%2C-97.9334300470482&z=15">Google Maps San Marcos</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="additional.html">Portfolio</a>
+                    <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Site Secondary Nav</a>
+                    <ul class="collapse list-unstyled" id="submenu2">
+                        <li>
+                            <a href="https://www.parking.txstate.edu">Parking API</a>
+                        </li>
+                        <li>
+                            <a href="https://map.concept3d.com/?id=308#!ct/28133,19953,18453,0">Walking API</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="contact.html">Contact</a>
@@ -77,35 +85,35 @@
                         <i class="fas fa-align-left"></i>
                        <span>Menu</span>
                     </button>
+
                     <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fas fa-align-justify"></i>
                     </button>
 
+                    <!-- Collapsable Nav Bar -->
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Page</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Parking API</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Page</a>
+                                <a class="nav-link" href="#">Walking API</a>
                             </li>
                         </ul>
                     </div>
+
                 </div>
             </nav>
 
             <!-- Style Header -->
-            <h2>Parking Apocolypse</h2>
+            <h1 id="mainHeader"> About Texas State Parking Apocolypse </h1>
 
-            <p>Parking at Texas State is probably the worst daily experience you will have at this University. This is followed closely by the daily walk to class then back to your car. We hope to make both of these things easier for you. Obviously we can't fix them completely, but we can do our best to make them better. We decided to target this issue because we believe it is common to almost all of Texas State's Students. It's not just students who are affected.</p>
-
-            <p>Although Faculty and Staff do get to park closer to their destination than do students, they still struggle to find parking spots every day they come to work. Most students have the advantage of being able to make their own schedule. This means that students' arrival times are often staggered, so students are frequently coming and going from their parking lots and garages. For the most part, Faculty and Staff all arrive and leave at about the same time, causing a big rush for parking at the beginning of the day with not much turnaround in spot availability. Fortunately for Faculty and Staff, the distribution of their parking spaces is fairly uniform throughout campus and, if they are willing to walk a bit farther, we believe we can provide them with lots that have more availability than the ones closest to their buildings.</p>
+            <div class="row">
+            <!-- Image Source -->
+              <div class="column">
+                <img id="title_img" src="./WebImages/Logo.png">
+              </div>
+            </div>
 
             <div class="line"></div>
 
@@ -131,6 +139,15 @@
             <p>Lucky for you, this tool is all open-source and available to look at on our GitHub page. You can see all of our documentation and code through <u><a href="https://github.com/CS3398-Kree/CS3398-Kree-F2019/tree/master/Term_Project" target="_blank">this</a></u> link. We still retain all intellectual property rights to this code. Any unauthorized use of our code constitues infringement of our copyright and will be pursued appropriately. In other words, feel free to learn from it, but make your own tool for your own college.</p>
         </div>
     </div>
+    
+        <!-- Wrapper to Format Footer -->
+        <div id="footer_wrapper">
+          <footer id="sticky-footer">
+            <div class="container text-center">
+              <small>Copyright &copy; CS3398-Kree 2019</small>
+            </div>
+          </footer>
+        </div>
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
