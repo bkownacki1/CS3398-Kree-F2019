@@ -166,11 +166,12 @@
             </div>
         </div>
         <br>
-        <!--
-        <p class="mapPrompt"><b>Make A Selection In the Map Above</b></p>
-        <p class="mapPrompt"><b>Dynamic HTML Will Be Inserted Here</b></p>
-        -->
+        <br>
+        
+        <p class="mapPrompt"><b>Select an Option From the Drop Down Menu</b></p>
 
+        <br>
+        
         <!-- Button Toolbar for Polygons on Map -->
         <div class="row">
           <div class="col-md-4 col-centered">
@@ -178,124 +179,166 @@
 
                     <!-- Submit Button -->
                     <div class="dropdown">
-                        <button type="button" class="btn btn-secondary dropdown-toggle btn-block" id="btn-strahan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu_1</button>
+                        <button type="button" class="btn btn-secondary dropdown-toggle btn-block" id="btn-strahan" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Primary Commuter Lots</button>
 
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="btn-display-strahan-list">
                         <a class="dropdown-item">Trigger DHTML</a>
                         <a class="dropdown-item">Another Lot From Group 1</a>
                         <a class="dropdown-item">Last Lot From Group 1</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item active" href="#">Reset Commuter Selection</a>
                       </div>
                     </div>
                     <br class="small_break">
 
                     <div class="dropdown">
-                      <button type="button" class="btn btn-secondary dropdown-toggle btn-block" id="btn-mathews" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu_2</button>
+                      <button type="button" class="btn btn-secondary dropdown-toggle btn-block" id="btn-mathews" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Primary Resident Lots</button>
 
                       <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" id="btn-display-mathews-list">Trigger DHMTL</a>
                         <a class="dropdown-item">Another Lot From Group 2</a>
                         <a class="dropdown-item">Last Lot From Group 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item active" href="#">Reset Resident Selection</a>
                       </div>
                     </div>
                     <br class="small_break">
-
+              </div> <!-- End Button Group Div -->
+            </div>   <!-- End Column Div -->
+            
+          <div class="col-md-4 col-centered">
+              <div class="btn-roolbar btn-block" role="group" aria-label="">
                     <div class="dropdown">
-                      <button type="button" class="btn btn-secondary dropdown-toggle btn-block" id="btn-pleasant" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu-3</button>
+                      <button type="button" class="btn btn-secondary dropdown-toggle btn-block" id="btn-pleasant" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Primary Restricted Lots</button>
                         <div class="dropdown-menu">
                           <a class="dropdown-item" id="btn-display-plesant-list">Trigger DHTML</a>
                           <a class="dropdown-item">Another Lot From Group 3</a>
                           <a class="dropdown-item">Last Lot From Group 3</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item active" href="#">Reset Restricted Selection</a>
                         </div>
                     </div>
                     <br class="small_break">
 
                     <div class="dropdown">
-                      <button type="button" class="btn btn-secondary dropdown-toggle btn-block" id="btn-lbj" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Menu-4</button>
+                      <button type="button" class="btn btn-secondary dropdown-toggle btn-block" id="btn-lbj" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">??????</button>
                       <div class="dropdown-menu">
                           <a class="dropdown-item" id="btn-display-lbj-list">Trigger DHTML</a>
                           <a class="dropdown-item">Another Lot From Group 4</a>
                           <a class="dropdown-item">Last Lot From Group 4</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item active" href="#">Reset ?? Selection</a>
                       </div>
                     </div>
                     <br class="small_break">
               </div>
             </div>
-            <!--
-            <div class="col-md-4 col-centered">
-               <div class="btn-roolbar btn-block" role="group" aria-label="">
-
-                    <button type="button" class="btn btn-secondary btn-block" id="btn-strahan">Strahan-L</button>
-
-                    <button type="button" class="btn btn-secondary btn-block" id="btn-mathews">Mathews-G</button>
-
-                    <button type="button" class="btn btn-secondary btn-block" id="btn-pleasant">Pleasant-G</button>
-
-                    <button type="button" class="btn btn-secondary btn-block" id="btn-lbj">LBJ-G</button>
-              </div>
-          </div>
-          -->
 
         </div>
         <!-- End Button ToolBar -->
         <br>
 
         <!-- Dynamic HTML Segment -->
-        <ul class="dynamic-list" id="strahan_list">
-            <li>Strahan Parking Option 1</li>
-            <li>Strahan Parking Option 2</li>
-            <li>Strahan Parking Option 3</li>
-        </ul>
+        <table class="table dynamic-list table-bordered table-striped" id="strahan_list">
+            <thead>
+                <th>Test Header</th>
+                <th>Test Header</th>
+                <th>Test Header</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>
+                </tr>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>  
+                </tr>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>  
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table class="table dynamic-list table-bordered table-striped" id="mathews_list">
+            <thead>
+                <th>Test Header</th>
+                <th>Test Header</th>
+                <th>Test Header</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>
+                </tr>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>  
+                </tr>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>  
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table class="table dynamic-list table-bordered table-striped" id="pleasant_list">
+            <thead>
+                <th>Test Header</th>
+                <th>Test Header</th>
+                <th>Test Header</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>
+                </tr>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>  
+                </tr>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>  
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <table class="table dynamic-list table-bordered table-striped" id="lbj_list">
+            <thead>
+                <th>Test Header</th>
+                <th>Test Header</th>
+                <th>Test Header</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>
+                </tr>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>  
+                </tr>
+                <tr>
+                    <td>Test1</td>
+                    <td>Test2</td>
+                    <td>Test2</td>  
+                </tr>
+            </tbody>
+        </table>
 
-        <ul class="dynamic-list" id="mathews_list">
-            <li>Mathews Parking Option 1</li>
-            <li>Mathews Parking Option 2</li>
-            <li>Mathews Parking Option 3</li>
-        </ul>
-
-        <ul class="dynamic-list" id="pleasant_list">
-            <li>Pleasant Parking Option 1</li>
-            <li>Pleasant Parking Option 2</li>
-            <li>Pleasant Parking Option 3</li>
-        </ul>
-
-        <ul class="dynamic-list" id="lbj_list">
-            <li>LBJ Parking Option 1</li>
-            <li>LBJ Parking Option 2</li>
-            <li>LBJ Parking Option 3</li>
-        </ul>
-
-
-        <br class="long_break">
-
-        <!-- Container Row For Input Group -->
-        <!-- Insert Web Form Here -->
-        <!--
-        <div class="row">
-            <div class="col-md-6 col-centered">
-              <div class="input-group-sm mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">Lat Coordinates</span>
-                </div>
-                <input id="lat_input" type="text" class="form-control" placeholder="Format: XXX.XX" aria-label="lat_coord" aria-describedby="basic-addon1">
-              </div>
-            </div>
-        </div>
-        -->
-
-        <!-- Container Row For Input Group
-        <div class="row">
-            <div class="col-md-6 col-centered">
-              <div class="input-group-sm mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" id="basic-addon1">Long Coordinates</span>
-                </div>
-                <input id="long_input" type="text" class="form-control" placeholder="Format: XXX.XX" aria-label="long_coord" aria-describedby="basic-addon1">
-              </div>
-            </div>
-         </div>
-         -->
-
-        <!-- Container Row Button Group -->
          <div class="row">
             <div class="col-md-4 col-centered">
               <!-- Buttons to Send Input Information to JS Backend -->

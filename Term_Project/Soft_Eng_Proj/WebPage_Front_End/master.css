@@ -229,6 +229,12 @@ a.article:hover {
     text-align: center;
 }
 
+.table
+{
+    margin: auto;
+    width: 50%;
+}
+
 br {
    display: block;
    margin: 2px 0;
@@ -247,6 +253,14 @@ br {
 .btn-block{
     padding: 0;
     margin: 0;
+}
+
+.dropdown-menu{
+    width: 100% !important;
+}
+
+.active{
+    background-color: black !important;
 }
 /*------------------------------------------------------
  Button Design Here
