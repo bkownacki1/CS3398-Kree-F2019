@@ -29,21 +29,21 @@ $(document).ready(function () {
 // Strahan Button interaction \\
 $(document).ready(function () {
     $('#btn-display-strahan-list').on('click', function(){
-    document.getElementById("strahan_list").style.display = "block";
+    document.getElementById("strahan_list").style.display = "table";
     });
 });
 
 // Mathews Button interaction \\
 $(document).ready(function () {
     $('#btn-display-mathews-list').on('click', function(){
-    document.getElementById("mathews_list").style.display = "block";
+    document.getElementById("mathews_list").style.display = "table";
     });
 });
 
 // Pleasant Button interaction \\
 $(document).ready(function () {
     $('#btn-display-plesant-list').on('click', function(){
-    document.getElementById("pleasant_list").style.display = "block";
+    document.getElementById("pleasant_list").style.display = "table";
     });
 });
 
@@ -51,6 +51,6 @@ $(document).ready(function () {
 // LBJ Button interaction \\
 $(document).ready(function () {
     $('#btn-display-lbj-list').on('click', function(){
-    document.getElementById("lbj_list").style.display = "block";
+    document.getElementById("lbj_list").style.display = "table";
     });
 });
