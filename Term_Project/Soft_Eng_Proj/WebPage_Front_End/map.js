@@ -123,11 +123,11 @@ function initMap() {
     var jckSessomLotSubtitle = '<div id="bodyContent"><p><b>JCK/Sessom Lot</b> etc... ';
     var jckSessomLotBlurb = "This section will contain information about best and worst parking times and other tips specific to JCK/Sessom Lot.";
 
-    var jckMoonLot1Subtitle = '<div id="bodyContent"><p><b>JCK/Moon Lot</b> etc... ';
+    var jckMoonLot1Subtitle = '<div id="bodyContent"><p><b>JCK/Moon Lot </b> etc... ';
     var jckMoonLot1Blurb = "This section will contain information about best and worst parking times and other tips specific to JCK/Moon Lot.";
 
-    var jckMoonLot2Subtitle = '<div id="bodyContent"><p><b>JCK/Moon Lot</b> etc... ';
-    var jckMoonLot2Blurb = "This section will contain information about best and worst parking times and other tips specific to JCK/Moon Lot.";
+    //var jckMoonLot2Subtitle = '<div id="bodyContent"><p><b>JCK/Moon Lot</b> etc... ';
+    //var jckMoonLot2Blurb = "This section will contain information about best and worst parking times and other tips specific to JCK/Moon Lot.";
 
     var freemanLotSubtitle = '<div id="bodyContent"><p><b>Freeman Lot</b> etc... ';
     var freemanLotBlurb = "This section will contain information about best and worst parking times and other tips specific to Freeman Lot.";
@@ -420,7 +420,7 @@ function initMap() {
         {lat: 29.888091, lng: -97.937653},
         {lat: 29.888121, lng: -97.937650},
         {lat: 29.888272, lng: -97.937489},
-        {lat: 29.888497, lng: -97.937833}], redFill, redFill, "JCK/Moon Lot", jckMoonLot2Subtitle, jckMoonLot2Blurb, 1028],
+        {lat: 29.888497, lng: -97.937833}], redFill, redFill, "JCK/Moon Lot", jckMoonLot1Subtitle, jckMoonLot1Blurb, 1027],
 
       [[{lat: 29.889843, lng: -97.935787},
         {lat: 29.889961, lng: -97.935865},
