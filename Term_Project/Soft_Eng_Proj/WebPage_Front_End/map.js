@@ -3,11 +3,13 @@ function initMap() {
     var san_marcos = {lat: 29.8884, lng: -97.9384};
     /*var Lbj = {lat: 29.889280, lng: -97.944592};
     var Alkek = {lat: 29.888865, lng: -97.943075};*/
+    var directionsService = new google.maps.DirectionsService();
     var greyFill = '#454545';
     var redFill = '#ff0000';
     var greenFill = '#0bd900';
     var purpleFill = '#7b42c2';
     var pinkFill = '#ff45d0';
+
 
     //var for map styles. This makes the orange restaurant points of interest less noticible while not really effecting the school ones.
     var mapStyles =
@@ -26,7 +28,7 @@ function initMap() {
       mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
       gestureHandling: 'greedy',
       navigationControl:true,
-      mapTypeId: google.maps.MapTypeId.TERRAIN,
+      //mapTypeId: google.maps.MapTypeId.TERRAIN,
       styles: mapStyles
     };
 
@@ -35,6 +37,20 @@ function initMap() {
     // The map, centered at San Marcos
     var map = new google.maps.Map(
         document.getElementById("google_map"), mapOptions);
+
+    //Directions Renderer
+    var directionsRenderer = new google.maps.DirectionsRenderer({
+      draggable: true,
+      map: map,
+      panel: document.getElementById('right-panel')
+    });
+    directionsRenderer.addListener('directions_changed', function(){
+      computeTotalDistance(directionsRenderer.getDirections());
+    });
+
+    //Route from Coliseum Lot to Derrick Hall, draggable
+    displayRoute('29.889203, -97.931062', '29.889155, -97.942084', directionsService, directionsRenderer);
+    directionsRenderer.setMap(map);
 
     // Markers, positioned in San Marcos. Commented out because they clutter the screen with all the lots
     //var sanMarcosMarker = new google.maps.Marker({position: San_Marcos, map: map});
@@ -763,6 +779,32 @@ function initMap() {
         polygon.setMap(map);
       }
 };
+
+//Displays route from Coliseum Lot to Derrick Hall with draggable waypoints
+function displayRoute(origin, destination, service, display){
+  service.route({
+    origin: origin,
+    destination: destination,
+    waypoints: [{location: '29.889173, -97.931202'}, {location: '29.888724, -97.933160'}, {location: '29.888724, -97.933160'}, {location: '29.887603, -97.934265'}],
+    travelMode:'BICYCLING'
+  }, function(response, status){
+    if (status==='OK'){
+      display.setDirections(response);
+    }else{
+      alert('Could not display directions due to: ' + status);
+    }
+  });
+}
+
+function computeTotalDistance(result) {
+  var total = 0;
+  var myroute = result.routes[0];
+  for (var i = 0; i < myroute.legs.length; i++) {
+    total += myroute.legs[i].distance.value;
+  }
+  total = total / 1000;
+  document.getElementById('total').innerHTML = total + ' km';
+}
 
 // Funtion to Update Map to New Location Based on User Input.
 function alterMap() {
