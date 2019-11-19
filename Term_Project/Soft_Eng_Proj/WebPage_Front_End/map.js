@@ -786,7 +786,7 @@ function displayRoute(origin, destination, service, display){
     origin: origin,
     destination: destination,
     waypoints: [{location: '29.889173, -97.931202'}, {location: '29.888724, -97.933160'}, {location: '29.888724, -97.933160'}, {location: '29.887603, -97.934265'}],
-    travelMode:'BICYCLING'
+    travelMode:'WALKING'
   }, function(response, status){
     if (status==='OK'){
       display.setDirections(response);
