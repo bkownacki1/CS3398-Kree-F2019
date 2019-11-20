@@ -15,156 +15,269 @@
     <title>About Parking Apocolypse</title>
 
     <!-- Bootstrap CSS CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+          integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
     <!-- CSS Style Sheet -->
     <link rel="stylesheet" href="master.css">
 
     <!-- Font Awesome JS -->
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+            integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ"
+            crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+            integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+            crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div class="wrapper">
-        <!-- Sidebar  -->
-        <nav id="sidebar">
-            <div class="sidebar-header">
-                <h3>Main Menu</h3>
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar">
+        <div class="sidebar-header">
+            <h3>Main Menu</h3>
+        </div>
+
+        <ul class="list-unstyled components">
+            <p id="navbar_title"><b>Useful Parking Links</b></p>
+
+            <!-- Home Page Link -->
+            <li>
+                <a href="./index.html">Home</a>
+            </li>
+
+            <li>
+                <a href="./about.html">About</a>
+            </li>
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Useful
+                    Parking Links</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="https://www.parking.txstate.edu">Parking Services WebPage</a>
+                    </li>
+                    <li>
+                        <a href="https://map.concept3d.com/?id=308#!ct/28133,19953,18453,0">Interactive Texas State
+                            Map</a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.com/maps/d/viewer?ie=UTF8&t=m&oe=UTF8&msa=0&mid=11z3sfrkqS6Jion116wX3NGhkFwo&ll=29.882485812969296%2C-97.9334300470482&z=15">Google
+                            Maps San Marcos</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Site Secondary
+                    Nav</a>
+                <ul class="collapse list-unstyled" id="submenu2">
+                    <li>
+                        <a href="https://www.parking.txstate.edu">Parking API</a>
+                    </li>
+                    <li>
+                        <a href="https://map.concept3d.com/?id=308#!ct/28133,19953,18453,0">Walking API</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Page Content  -->
+    <div id="content">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+
+                <button type="button" id="sidebarCollapse" class="btn btn-info">
+                    <i class="fas fa-align-left"></i>
+                    <span>Menu</span>
+                </button>
+
+                <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+
+                <!-- Collapsable Nav Bar -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Parking API</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Walking API</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
-
-                       <ul class="list-unstyled components">
-                <p id="navbar_title"><b>Useful Parking Links</b></p>
-
-                <!-- Home Page Link -->
-                <li>
-                    <a href="./index.html">Home</a>
-                </li>
-
-                <li>
-                    <a href="./about.html">About</a>
-                </li>
-                <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Useful Parking Links</a>
-                    <ul class="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <a href="https://www.parking.txstate.edu">Parking Services WebPage</a>
-                        </li>
-                        <li>
-                            <a href="https://map.concept3d.com/?id=308#!ct/28133,19953,18453,0">Interactive Texas State Map</a>
-                        </li>
-                        <li>
-                            <a href="https://www.google.com/maps/d/viewer?ie=UTF8&t=m&oe=UTF8&msa=0&mid=11z3sfrkqS6Jion116wX3NGhkFwo&ll=29.882485812969296%2C-97.9334300470482&z=15">Google Maps San Marcos</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#submenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Site Secondary Nav</a>
-                    <ul class="collapse list-unstyled" id="submenu2">
-                        <li>
-                            <a href="https://www.parking.txstate.edu">Parking API</a>
-                        </li>
-                        <li>
-                            <a href="https://map.concept3d.com/?id=308#!ct/28133,19953,18453,0">Walking API</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-            </ul>
         </nav>
 
-        <!-- Page Content  -->
-        <div id="content">
+        <!-- Style Header -->
+        <h1 id="mainHeader"> About Texas State Parking Apocolypse </h1>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-info">
-                        <i class="fas fa-align-left"></i>
-                       <span>Menu</span>
-                    </button>
-
-                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-align-justify"></i>
-                    </button>
-
-                    <!-- Collapsable Nav Bar -->
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav ml-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Parking API</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Walking API</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-            </nav>
-
-            <!-- Style Header -->
-            <h1 id="mainHeader"> About Texas State Parking Apocolypse </h1>
-
-            <div class="row">
+        <div class="row">
             <!-- Image Source -->
-              <div class="column">
+            <div class="column">
                 <img id="title_img" src="./WebImages/Logo.png">
-              </div>
+            </div>
+        </div>
+
+        <div class="line"></div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h2>Why is this even an issue?</h2>
+                <p>Great question! The thing is, this issue was much worse in previous years; and, even though we all
+                    suffer
+                    through it now, Parking Services seems to be trying to make some progress towards a solution. This
+                    can be
+                    seen <u><a href="https://www.parking.txstate.edu/about/statistics.html" target="_blank">here</a></u>.
+                    As you
+                    may notice, for the Fiscal Year 2018, Parking Services sold just over 20,000 parking permits of all
+                    types.
+                    This, despite them having just under 12,000 parking spots across the San Marcos and Round Rock
+                    Campuses. In
+                    previous years, Parking Services sold about 5,000 more Perimeter Permits than in Fiscal Year 2018.
+                    This
+                    means that, although they are selling fewer Perimeter Permits, they still sell about 70% more
+                    permits than
+                    they have spots available for. All those spaces need to accomodate almost 45,000 people (about
+                    40,000
+                    Students plus over 4300 Faculty & Staff). That's a huge discrepancy.</p>
+
+                <p>Of course not all the available spots will be used at all times, so it doesn't make sense to ensure
+                    that a
+                    space exists for every single permit, but Parking Services can still do a lot better to provide
+                    parking
+                    accomadations. For example, there have only been two parking garages or lots added to Texas State
+                    since
+                    2005, adding a total of about 1600 parking spaces. This is with Texas State's planning assumptions
+                    of 1.5%
+                    undergraduate student growth per year (about 600 additional students <b>per year</b>), per their
+                    2017-2027
+                    University Master Plan. In that same Master Plan, the University recognizes that there is a parking
+                    shortage, but their solution is to add spaces <i>farther</i> from central campus and provide more
+                    busing to
+                    the campus core. They also admit that they are placing a priority not on student, staff, or
+                    residental
+                    parking, but paid visitor parking, "in proximity to high profile public destinations."</p>
+
+                <p>What insights can we glean from the university's plan? Well, being that the LBJ Student Center paid
+                    parking
+                    garage accounts for nearly 20% of Parking Services' yearly income while accounting for just 5% of
+                    its yearly
+                    expenses, the University seems to be looking to take a model of easy profit over easy scholarship.
+                    The fact
+                    that the University is prioritizing paid public parking for people who will visit the University a
+                    handful
+                    of times over permitted Staff/Faculty and Student parking, which is utilized by tens of thousands of
+                    people
+                    daily, is something we find insulting.</p>
+
+                <p>In fact, the Univerity's Master Plan only includes plans for an addtional 2,000 parking spaces from
+                    now until
+                    2027. Remember, they also plan to add about 6,000 students in that same time frame. The gains made
+                    by these
+                    additional parking spaces will be mitigated by the increase in student population and by the fact
+                    that in
+                    the previous sentence in their master plan, they state that they want to migrate parking away from
+                    the
+                    campus core to these new facilities. Many of our fellow Civil Engineering Faculty and Students will
+                    concur
+                    that moving away from single-level surface lots and towards multi-level garages is the correct way
+                    to
+                    maximize efficiency of space, but where the University gets it wrong is their plan to move this new,
+                    more
+                    efficient parking farther from where it needs to be.</p>
             </div>
 
-            <div class="line"></div>
 
-            <h2>Why is this even an issue?</h2>
-            <p>Great question! The thing is, this issue was much worse in previous years; and, even though we all suffer through it now, Parking Services seems to be trying to make some progress towards a solution. This can be seen <u><a href="https://www.parking.txstate.edu/about/statistics.html" target="_blank">here</a></u>. As you may notice, for the Fiscal Year 2018, Parking Services sold just over 20,000 parking permits of all types. This, despite them having just under 12,000 parking spots across the San Marcos and Round Rock Campuses. In previous years, Parking Services sold about 5,000 more Perimeter Permits than in Fiscal Year 2018. This means that, although they are selling fewer Perimeter Permits, they still sell about 70% more permits than they have spots available for. All those spaces need to accomodate almost 45,000 people (about 40,000 Students plus over 4300 Faculty & Staff). That's a huge discrepancy.</p>
+            <div class="col-md-4">
+                <h2>What's the Solution?</h2>
+                <p>For us the solution is to work around the problem. Since we cannot hope to pursuade the Univerity to
+                    add more
+                    parking than they plan to (they, somehwat comically, self-assess 77% of parking spaces occupied on a
+                    given
+                    day during peak periods), we must do the best we can with what we have. That is why we, as the
+                    designers of
+                    this website and tool, have put so many hours into researching and developing a way for our fellow
+                    Students,
+                    Faculty, and Staff to take best advantage of the shoddy infrastructure that the University provides.
+                    Throughout their Master Plan, the University asserts that there is no war in Ba Sing Se by using
+                    flabberghastingly wrong or irrelevant statistics, which many people who regularly visit Texas State
+                    can
+                    identify as ridiculous. We hope that by utilizing this tool, you will be able to experience a small
+                    amount
+                    more ease in your commute.</p>
 
-            <p>Of course not all the available spots will be used at all times, so it doesn't make sense to ensure that a space exists for every single permit, but Parking Services can still do a lot better to provide parking accomadations. For example, there have only been two parking garages or lots added to Texas State since 2005, adding a total of about 1600 parking spaces. This is with Texas State's planning assumptions of 1.5% undergraduate student growth per year (about 600 additional students <b>per year</b>), per their 2017-2027 University Master Plan. In that same Master Plan, the University recognizes that there is a parking shortage, but their solution is to add spaces <i>farther</i> from central campus and provide more busing to the campus core. They also admit that they are placing a priority not on student, staff, or residental parking, but paid visitor parking, "in proximity to high profile public destinations."</p>
+                <p>For the University, the solution is to turn many of the surface-level lots in central campus into
+                    multi-level
+                    garages accessable to students. We also would like to see new garages placed in closer walking
+                    distance to
+                    campus for all permit holders. Finally, the University needs to upgrade the surface-level commuter
+                    lots
+                    currently located far from the center of campus into multi-level garages to provide double the
+                    current
+                    parking capacity. To make Texas State University into a model for accessability and ease-of-use, the
+                    University must double the number of spots it currently has available so that anybody who pays for a
+                    permit
+                    is guaranteed an easy-to-find spot within a reasonable distance of campus. If the university cannot
+                    manage
+                    that, it must sell fewer permits so those who pay for a spot will have one.</p>
+            </div>
 
-            <p>What insights can we glean from the university's plan? Well, being that the LBJ Student Center paid parking garage accounts for nearly 20% of Parking Services' yearly income while accounting for just 5% of its yearly expenses, the University seems to be looking to take a model of easy profit over easy scholarship. The fact that the University is prioritizing paid public parking for people who will visit the University a handful of times over permitted Staff/Faculty and Student parking, which is utilized by tens of thousands of people daily, is something we find insulting.</p>
-
-            <p>In fact, the Univerity's Master Plan only includes plans for an addtional 2,000 parking spaces from now until 2027. Remember, they also plan to add about 6,000 students in that same time frame. The gains made by these additional parking spaces will be mitigated by the increase in student population and by the fact that in the previous sentence in their master plan, they state that they want to migrate parking away from the campus core to these new facilities. Many of our fellow Civil Engineering Faculty and Students will concur that moving away from single-level surface lots and towards multi-level garages is the correct way to maximize efficiency of space, but where the University gets it wrong is their plan to move this new, more efficient parking farther from where it needs to be.</p>
-
-            <div class="line"></div>
-
-            <h2>What's the Solution?</h2>
-            <p>For us the solution is to work around the problem. Since we cannot hope to pursuade the Univerity to add more parking than they plan to (they, somehwat comically, self-assess 77% of parking spaces occupied on a given day during peak periods), we must do the best we can with what we have. That is why we, as the designers of this website and tool, have put so many hours into researching and developing a way for our fellow Students, Faculty, and Staff to take best advantage of the shoddy infrastructure that the University provides. Throughout their Master Plan, the University asserts that there is no war in Ba Sing Se by using flabberghastingly wrong or irrelevant statistics, which many people who regularly visit Texas State can identify as ridiculous. We hope that by utilizing this tool, you will be able to experience a small amount more ease in your commute.</p>
-
-            <p>For the University, the solution is to turn many of the surface-level lots in central campus into multi-level garages accessable to students. We also would like to see new garages placed in closer walking distance to campus for all permit holders. Finally, the University needs to upgrade the surface-level commuter lots currently located far from the center of campus into multi-level garages to provide double the current parking capacity. To make Texas State University into a model for accessability and ease-of-use, the University must double the number of spots it currently has available so that anybody who pays for a permit is guaranteed an easy-to-find spot within a reasonable distance of campus. If the university cannot manage that, it must sell fewer permits so those who pay for a spot will have one.</p>
-
-            <div class="line"></div>
-
-            <h3>How was this tool designed and made? How does it work?</h3>
-            <p>Lucky for you, this tool is all open-source and available to look at on our GitHub page. You can see all of our documentation and code through <u><a href="https://github.com/CS3398-Kree/CS3398-Kree-F2019/tree/master/Term_Project" target="_blank">this</a></u> link. We still retain all intellectual property rights to this code. Any unauthorized use of our code constitues infringement of our copyright and will be pursued appropriately. In other words, feel free to learn from it, but make your own tool for your own college.</p>
+            <div class="col-md-4">
+                <h3>How was this tool designed and made? How does it work?</h3>
+                <p>Lucky for you, this tool is all open-source and available to look at on our GitHub page. You can see
+                    all of
+                    our documentation and code through <u><a
+                            href="https://github.com/CS3398-Kree/CS3398-Kree-F2019/tree/master/Term_Project"
+                            target="_blank">this</a></u>
+                    link. We still retain all intellectual property rights to this code. Any unauthorized use of our
+                    code
+                    constitues infringement of our copyright and will be pursued appropriately. In other words, feel
+                    free to
+                    learn from it, but make your own tool for your own college.</p>
+            </div>
         </div>
     </div>
-    
-        <!-- Wrapper to Format Footer -->
-        <div id="footer_wrapper">
-          <footer id="sticky-footer">
-            <div class="container text-center">
-              <small>Copyright &copy; CS3398-Kree 2019</small>
-            </div>
-          </footer>
+</div>
+
+<!-- Wrapper to Format Footer -->
+<div id="footer_wrapper">
+    <footer id="sticky-footer">
+        <div class="container text-center">
+            <small>Copyright &copy; CS3398-Kree 2019</small>
         </div>
+    </footer>
+</div>
 
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<!-- jQuery CDN - Slim version (=without AJAX) -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
 
-    <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+<!-- Popper.JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
 
-    <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $('#sidebarCollapse').on('click', function () {
-                $('#sidebar').toggleClass('active');
-            });
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#sidebarCollapse').on('click', function () {
+            $('#sidebar').toggleClass('active');
         });
-    </script>
+    });
+</script>
 </body>
 
 </html>
