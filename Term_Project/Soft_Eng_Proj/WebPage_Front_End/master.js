@@ -5,17 +5,6 @@ $(document).ready(function () {
     });
 });
 
-// Function to Set Fields in the HTML When User Click Submit
-$(document).ready(function () {
-    $('#submitForm').on('click', function(){
-    document.getElementById("element1").style.display = "block";
-    document.getElementById("element2").style.display = "block";
-    document.getElementById("element3").style.display = "block";
-    document.getElementById("element4").style.display = "block";
-    });
-});
-
-
 // Document to clear fields When User clicks reset, Toggle Class Later On \\
 $(document).ready(function () {
     $('#resetForm').on('click', function(){
