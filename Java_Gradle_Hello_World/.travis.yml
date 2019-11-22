@@ -14,7 +14,7 @@ before_deploy:
   - echo "Just generated GIT_TAG"
   - echo $GIT_TAG
   - git tag $GIT_TAG -a -m "Generated tag from TravisCI for build $TRAVIS_BUILD_NUMBER"
-  - git push -q https://$GITPERM@github.com/drlehr/Java_Gradle_Hello_World  --tags
+  - git push -q https://$GITPERM@github.com/CS3398-Kree/CS3398-Kree-F2019/tree/master/Java_Gradle_Hello_World  --tags
   - ls -R
   
 deploy:
