@@ -1,4 +1,8 @@
-# CS3398-Kree-S2019
+# Texas State Parking Tool
+
+The Texas State Parking Tool was a team project with myself and 4 other team members. The bulk of the code can be found at TexasStateParkingTool/Term_Project/Soft_Eng_Proj/WebPage_Front_End/.
+
+CS3398-Kree-S2019
 
 Assignment_4:
 
